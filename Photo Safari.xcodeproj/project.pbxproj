@@ -109,7 +109,6 @@
 		7BA84D551E1874F000AE2893 /* sharkbiteship3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D261E1874F000AE2893 /* sharkbiteship3.jpg */; };
 		7BA84D561E1874F000AE2893 /* sharkbiteship4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D271E1874F000AE2893 /* sharkbiteship4.jpg */; };
 		7BA84D571E1874F000AE2893 /* sharkbiteship5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D281E1874F000AE2893 /* sharkbiteship5.jpg */; };
-		7BA84D581E1874F000AE2893 /* toydrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D291E1874F000AE2893 /* toydrive.png */; };
 		7BA84D591E1874F000AE2893 /* toydrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D2A1E1874F000AE2893 /* toydrive.png */; };
 		7BA84D5C1E18756F00AE2893 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA84D5B1E18756F00AE2893 /* Utility.swift */; };
 		7BA84D5F1E1876C100AE2893 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA84D5E1E1876C100AE2893 /* String+Extension.swift */; };
@@ -225,7 +224,6 @@
 		7BA84D261E1874F000AE2893 /* sharkbiteship3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharkbiteship3.jpg; sourceTree = "<group>"; };
 		7BA84D271E1874F000AE2893 /* sharkbiteship4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharkbiteship4.jpg; sourceTree = "<group>"; };
 		7BA84D281E1874F000AE2893 /* sharkbiteship5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharkbiteship5.jpg; sourceTree = "<group>"; };
-		7BA84D291E1874F000AE2893 /* toydrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toydrive.png; sourceTree = "<group>"; };
 		7BA84D2A1E1874F000AE2893 /* toydrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toydrive.png; sourceTree = "<group>"; };
 		7BA84D5B1E18756F00AE2893 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		7BA84D5E1E1876C100AE2893 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
@@ -250,6 +248,7 @@
 		7B139F161E14DCE400A4A165 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				D17320AD220BD22600B6EFAA /* bookcover */,
 				7B5487351E3E76F0005B5D67 /* AppLaunch_Icon */,
 				7B6BEE6E1E28943D003EA089 /* creditcard */,
 				7B6BEE501E216F40003EA089 /* shopping_cart.pdf */,
@@ -332,7 +331,7 @@
 		7B55BC2D1E135A4F00119A75 = {
 			isa = PBXGroup;
 			children = (
-				7B55BC381E135A4F00119A75 /* Pirate Bay */,
+				7B55BC381E135A4F00119A75 /* Photo Safari */,
 				7B55BC371E135A4F00119A75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -345,7 +344,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B55BC381E135A4F00119A75 /* Pirate Bay */ = {
+		7B55BC381E135A4F00119A75 /* Photo Safari */ = {
 			isa = PBXGroup;
 			children = (
 				7BA84D631E1A311900AE2893 /* view */,
@@ -361,7 +360,7 @@
 				7B55BC421E135A4F00119A75 /* LaunchScreen.storyboard */,
 				7B55BC451E135A4F00119A75 /* Info.plist */,
 			);
-			path = "Pirate Bay";
+			path = "Photo Safari";
 			sourceTree = "<group>";
 		};
 		7B6BEE521E221482003EA089 /* cartCheckout */ = {
@@ -554,7 +553,6 @@
 				7BA84D161E1874F000AE2893 /* littletikes */,
 				7BA84D1C1E1874F000AE2893 /* popupPirate */,
 				7BA84D231E1874F000AE2893 /* sharkbiteship */,
-				7BA84D291E1874F000AE2893 /* toydrive.png */,
 			);
 			path = toy;
 			sourceTree = "<group>";
@@ -694,6 +692,13 @@
 			name = button;
 			sourceTree = "<group>";
 		};
+		D17320AD220BD22600B6EFAA /* bookcover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bookcover;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -799,7 +804,6 @@
 				7BA84D2B1E1874F000AE2893 /* captainjake1.jpg in Resources */,
 				7B18E7B31E1B63040074371E /* browse.pdf in Resources */,
 				7BA84D441E1874F000AE2893 /* jakeneverland2.jpg in Resources */,
-				7BA84D581E1874F000AE2893 /* toydrive.png in Resources */,
 				7B5487461E3E76F0005B5D67 /* PirateBay29@2x.png in Resources */,
 				7BA84D351E1874F000AE2893 /* pirates6.jpg in Resources */,
 				7B139F151E14DCD400A4A165 /* piratesofcaribbean.pdf in Resources */,
@@ -998,7 +1002,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q8K5LFSE6P;
-				INFOPLIST_FILE = "Pirate Bay/Info.plist";
+				INFOPLIST_FILE = "Photo Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aseesu.PictureDisplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1011,7 +1015,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q8K5LFSE6P;
-				INFOPLIST_FILE = "Pirate Bay/Info.plist";
+				INFOPLIST_FILE = "Photo Safari/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aseesu.PictureDisplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
