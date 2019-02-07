@@ -32,8 +32,6 @@ class ProductDetailViewController: UIViewController {
     
     var specifications = [ProductInfo]()
     var quantity = 1
-    var shoppingCart = ShoppingCart.sharedInstance
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,8 +42,6 @@ class ProductDetailViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        cartItemCountLabel.text = "\(self.shoppingCart.totalItem())"
     }
     
 
@@ -89,12 +85,6 @@ class ProductDetailViewController: UIViewController {
             case "segueQuantity":
                 let quantityTVC = segue.destination as! QuantityTableViewController
                 quantityTVC.delegate = self
-                
-            case "segueToCart":
-                let navController = segue.destination as! UINavigationController
-                let cartTVC = navController.topViewController as! CartTableViewController
-                cartTVC.cartDelegate = self
-                
             default:
                 break
             }
@@ -107,24 +97,18 @@ class ProductDetailViewController: UIViewController {
     
     @IBAction func didTapAddToCart(_ sender: MyButton) {
         if let product = product {
-            shoppingCart.add(product: product, qty: self.quantity)
-            
             // Reset the quantity
             self.quantity = 1
             self.detailSummaryView.quantityButton.setTitle("Quantity: 1", for: UIControlState.normal)
             
-            UIView.animate(withDuration: 0.5, animations: { [weak self] in
-                self?.shoppingCartButton.layer.transform = CATransform3DMakeRotation(CGFloat(M_PI), 0.0, 1.0, 0.0)
-            })
-
-            UIView.animate(withDuration: 0.5, animations: { [weak self] in
-                self?.shoppingCartButton.layer.transform = CATransform3DMakeRotation(CGFloat(M_PI) * 2, 0.0, 1.0, 0.0)
-                }, completion: { (succes: Bool) in
-                    DispatchQueue.main.async { [unowned self] in
-                        self.cartItemCountLabel.text = "\(self.shoppingCart.totalItem())"
-                    }
-                }
-            )
+            DispatchQueue.main.async {
+                let alertController = UIAlertController(title: "Our Apology", message: "This feature will be ready on our next release", preferredStyle: .alert)
+                
+                let alertActon = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                alertController.addAction(alertActon)
+                self.present(alertController, animated: true, completion: nil)
+                
+            }
         }
     }
     
@@ -160,16 +144,6 @@ extension ProductDetailViewController: QuantityPopoverDelegate {
         detailSummaryView.quantityButton.setTitle("Quantity: \(self.quantity)", for: UIControlState.normal)
     }
 }
-
-
-// MARK: - ShoppingCartDelegate
-
-extension ProductDetailViewController: ShoppingCartDelegate {
-    func updateTotalCartItem() {
-        cartItemCountLabel.text = "\(shoppingCart.totalItem())"
-    }
-}
-
 
 
 

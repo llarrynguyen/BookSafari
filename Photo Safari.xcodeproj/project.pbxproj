@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B139F131E14DCD400A4A165 /* piratebattle.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B139F101E14DCD400A4A165 /* piratebattle.pdf */; };
-		7B139F141E14DCD400A4A165 /* piratemap.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B139F111E14DCD400A4A165 /* piratemap.pdf */; };
-		7B139F151E14DCD400A4A165 /* piratesofcaribbean.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B139F121E14DCD400A4A165 /* piratesofcaribbean.pdf */; };
 		7B139F1B1E14DE7B00A4A165 /* PromoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B139F1A1E14DE7B00A4A165 /* PromoContentViewController.swift */; };
 		7B139F1D1E14DEA300A4A165 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B139F1C1E14DEA300A4A165 /* HomeViewController.swift */; };
 		7B18E7B31E1B63040074371E /* browse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B18E7B11E1B63040074371E /* browse.pdf */; };
@@ -21,7 +18,6 @@
 		7B18E7C11E1B7D300074371E /* blackstar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B18E7BF1E1B7D300074371E /* blackstar.pdf */; };
 		7B18E7C21E1B7D300074371E /* yellowstar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B18E7C01E1B7D300074371E /* yellowstar.pdf */; };
 		7B18E7C41E1B7D8A0074371E /* UserRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B18E7C31E1B7D8A0074371E /* UserRating.swift */; };
-		7B5487341E3E5CC0005B5D67 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5487331E3E5CC0005B5D67 /* OrderConfirmationViewController.swift */; };
 		7B5487411E3E76F0005B5D67 /* PirateBay-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5487361E3E76F0005B5D67 /* PirateBay-Logo.png */; };
 		7B5487421E3E76F0005B5D67 /* PirateBay20.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5487371E3E76F0005B5D67 /* PirateBay20.png */; };
 		7B5487431E3E76F0005B5D67 /* PirateBay200.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B5487381E3E76F0005B5D67 /* PirateBay200.png */; };
@@ -40,75 +36,15 @@
 		7B6BEE411E1F64AC003EA089 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE401E1F64AC003EA089 /* UIImage+Extension.swift */; };
 		7B6BEE4B1E20DF29003EA089 /* ProductInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE4A1E20DF29003EA089 /* ProductInfoTableViewCell.swift */; };
 		7B6BEE4D1E2155B6003EA089 /* QuantityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE4C1E2155B6003EA089 /* QuantityTableViewController.swift */; };
-		7B6BEE4F1E2166E3003EA089 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE4E1E2166E3003EA089 /* ShoppingCart.swift */; };
 		7B6BEE511E216F40003EA089 /* shopping_cart.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B6BEE501E216F40003EA089 /* shopping_cart.pdf */; };
-		7B6BEE541E2214A1003EA089 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE531E2214A1003EA089 /* CartTableViewController.swift */; };
-		7B6BEE581E222355003EA089 /* ItemInCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE561E222355003EA089 /* ItemInCartTableViewCell.swift */; };
-		7B6BEE591E222355003EA089 /* ItemInCartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B6BEE571E222355003EA089 /* ItemInCartTableViewCell.xib */; };
-		7B6BEE5D1E234ED2003EA089 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE5C1E234ED2003EA089 /* LoginViewController.swift */; };
-		7B6BEE631E2476DD003EA089 /* CustomerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE621E2476DD003EA089 /* CustomerService.swift */; };
-		7B6BEE661E247D71003EA089 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE651E247D71003EA089 /* AddressViewController.swift */; };
-		7B6BEE6B1E261000003EA089 /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE6A1E261000003EA089 /* CustomerViewController.swift */; };
 		7B6BEE741E28943D003EA089 /* amex.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B6BEE6F1E28943D003EA089 /* amex.pdf */; };
 		7B6BEE751E28943D003EA089 /* creditcard.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B6BEE701E28943D003EA089 /* creditcard.pdf */; };
 		7B6BEE761E28943D003EA089 /* discover.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B6BEE711E28943D003EA089 /* discover.pdf */; };
 		7B6BEE771E28943D003EA089 /* mastercard.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B6BEE721E28943D003EA089 /* mastercard.pdf */; };
 		7B6BEE781E28943D003EA089 /* visa.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B6BEE731E28943D003EA089 /* visa.pdf */; };
-		7B6BEE7A1E289FD9003EA089 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE791E289FD9003EA089 /* PaymentViewController.swift */; };
-		7B6BEE811E28B5FC003EA089 /* ExistingCreditCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE801E28B5FC003EA089 /* ExistingCreditCardTableViewCell.swift */; };
-		7B6BEE831E28B60F003EA089 /* NewCreditCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE821E28B60F003EA089 /* NewCreditCardTableViewCell.swift */; };
-		7B6BEE881E29F4F8003EA089 /* PopoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE871E29F4F8003EA089 /* PopoverTableViewController.swift */; };
-		7B6BEE8D1E2A1D8F003EA089 /* ReviewOrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE8C1E2A1D8F003EA089 /* ReviewOrderTableViewController.swift */; };
-		7B6BEE901E2A1DF0003EA089 /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE8F1E2A1DF0003EA089 /* PaymentTableViewCell.swift */; };
-		7B6BEE921E2A1E01003EA089 /* ShippingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6BEE911E2A1E01003EA089 /* ShippingTableViewCell.swift */; };
 		7BA84CE61E1864C900AE2893 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA84CE41E1864C900AE2893 /* CoreDataStack.swift */; };
 		7BA84CE71E1864C900AE2893 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CE51E1864C900AE2893 /* products.json */; };
 		7BA84CEB1E18662200AE2893 /* PirateBay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BA84CE91E18662200AE2893 /* PirateBay.xcdatamodeld */; };
-		7BA84D2B1E1874F000AE2893 /* captainjake1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CEE1E1874F000AE2893 /* captainjake1.jpg */; };
-		7BA84D2C1E1874F000AE2893 /* piratechest1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CF01E1874F000AE2893 /* piratechest1.jpg */; };
-		7BA84D2D1E1874F000AE2893 /* piratescurse1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CF21E1874F000AE2893 /* piratescurse1.jpg */; };
-		7BA84D2E1E1874F000AE2893 /* piratefairy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CF41E1874F000AE2893 /* piratefairy1.jpg */; };
-		7BA84D2F1E1874F000AE2893 /* piratefairy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CF51E1874F000AE2893 /* piratefairy2.jpg */; };
-		7BA84D301E1874F000AE2893 /* pirates1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CF71E1874F000AE2893 /* pirates1.jpg */; };
-		7BA84D311E1874F000AE2893 /* pirates2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CF81E1874F000AE2893 /* pirates2.jpg */; };
-		7BA84D321E1874F000AE2893 /* pirates3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CF91E1874F000AE2893 /* pirates3.jpg */; };
-		7BA84D331E1874F000AE2893 /* pirates4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CFA1E1874F000AE2893 /* pirates4.jpg */; };
-		7BA84D341E1874F000AE2893 /* pirates5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CFB1E1874F000AE2893 /* pirates5.jpg */; };
-		7BA84D351E1874F000AE2893 /* pirates6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CFC1E1874F000AE2893 /* pirates6.jpg */; };
-		7BA84D361E1874F000AE2893 /* piratesilicon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84CFE1E1874F000AE2893 /* piratesilicon1.jpg */; };
-		7BA84D371E1874F000AE2893 /* piratetides1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D001E1874F000AE2893 /* piratetides1.jpg */; };
-		7BA84D381E1874F000AE2893 /* piratetides2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D011E1874F000AE2893 /* piratetides2.jpg */; };
-		7BA84D391E1874F000AE2893 /* piratetides3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D021E1874F000AE2893 /* piratetides3.jpg */; };
-		7BA84D3A1E1874F000AE2893 /* piratetides4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D031E1874F000AE2893 /* piratetides4.jpg */; };
-		7BA84D3B1E1874F000AE2893 /* piratetides5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D041E1874F000AE2893 /* piratetides5.jpg */; };
-		7BA84D3C1E1874F000AE2893 /* piratetides6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D051E1874F000AE2893 /* piratetides6.jpg */; };
-		7BA84D3D1E1874F000AE2893 /* scooby1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D071E1874F000AE2893 /* scooby1.jpg */; };
-		7BA84D3E1E1874F000AE2893 /* buccaneerboat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D0A1E1874F000AE2893 /* buccaneerboat1.jpg */; };
-		7BA84D3F1E1874F000AE2893 /* buccaneerboat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D0B1E1874F000AE2893 /* buccaneerboat2.jpg */; };
-		7BA84D401E1874F000AE2893 /* buccaneerboat3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D0C1E1874F000AE2893 /* buccaneerboat3.jpg */; };
-		7BA84D411E1874F000AE2893 /* buccaneerboat4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D0D1E1874F000AE2893 /* buccaneerboat4.jpg */; };
-		7BA84D421E1874F000AE2893 /* deluxeship1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D0F1E1874F000AE2893 /* deluxeship1.jpg */; };
-		7BA84D431E1874F000AE2893 /* jakeneverland1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D111E1874F000AE2893 /* jakeneverland1.jpg */; };
-		7BA84D441E1874F000AE2893 /* jakeneverland2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D121E1874F000AE2893 /* jakeneverland2.jpg */; };
-		7BA84D451E1874F000AE2893 /* jakeneverland3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D131E1874F000AE2893 /* jakeneverland3.jpg */; };
-		7BA84D461E1874F000AE2893 /* jakeneverland4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D141E1874F000AE2893 /* jakeneverland4.jpg */; };
-		7BA84D471E1874F000AE2893 /* jakeneverland5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D151E1874F000AE2893 /* jakeneverland5.jpg */; };
-		7BA84D481E1874F000AE2893 /* littletikes1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D171E1874F000AE2893 /* littletikes1.jpg */; };
-		7BA84D491E1874F000AE2893 /* littletikes2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D181E1874F000AE2893 /* littletikes2.jpg */; };
-		7BA84D4A1E1874F000AE2893 /* littletikes3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D191E1874F000AE2893 /* littletikes3.jpg */; };
-		7BA84D4B1E1874F000AE2893 /* littletikes4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D1A1E1874F000AE2893 /* littletikes4.jpg */; };
-		7BA84D4C1E1874F000AE2893 /* littletikes5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D1B1E1874F000AE2893 /* littletikes5.jpg */; };
-		7BA84D4D1E1874F000AE2893 /* popupPirate1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D1D1E1874F000AE2893 /* popupPirate1.jpg */; };
-		7BA84D4E1E1874F000AE2893 /* popupPirate2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D1E1E1874F000AE2893 /* popupPirate2.jpg */; };
-		7BA84D4F1E1874F000AE2893 /* popupPirate3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D1F1E1874F000AE2893 /* popupPirate3.jpg */; };
-		7BA84D501E1874F000AE2893 /* popupPirate4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D201E1874F000AE2893 /* popupPirate4.jpg */; };
-		7BA84D511E1874F000AE2893 /* popupPirate5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D211E1874F000AE2893 /* popupPirate5.jpg */; };
-		7BA84D521E1874F000AE2893 /* popupPirate6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D221E1874F000AE2893 /* popupPirate6.jpg */; };
-		7BA84D531E1874F000AE2893 /* sharkbiteship1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D241E1874F000AE2893 /* sharkbiteship1.jpg */; };
-		7BA84D541E1874F000AE2893 /* sharkbiteship2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D251E1874F000AE2893 /* sharkbiteship2.jpg */; };
-		7BA84D551E1874F000AE2893 /* sharkbiteship3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D261E1874F000AE2893 /* sharkbiteship3.jpg */; };
-		7BA84D561E1874F000AE2893 /* sharkbiteship4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D271E1874F000AE2893 /* sharkbiteship4.jpg */; };
-		7BA84D571E1874F000AE2893 /* sharkbiteship5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D281E1874F000AE2893 /* sharkbiteship5.jpg */; };
 		7BA84D591E1874F000AE2893 /* toydrive.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA84D2A1E1874F000AE2893 /* toydrive.png */; };
 		7BA84D5C1E18756F00AE2893 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA84D5B1E18756F00AE2893 /* Utility.swift */; };
 		7BA84D5F1E1876C100AE2893 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA84D5E1E1876C100AE2893 /* String+Extension.swift */; };
@@ -184,9 +120,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B139F101E14DCD400A4A165 /* piratebattle.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = piratebattle.pdf; sourceTree = "<group>"; };
-		7B139F111E14DCD400A4A165 /* piratemap.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = piratemap.pdf; sourceTree = "<group>"; };
-		7B139F121E14DCD400A4A165 /* piratesofcaribbean.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = piratesofcaribbean.pdf; sourceTree = "<group>"; };
 		7B139F1A1E14DE7B00A4A165 /* PromoContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoContentViewController.swift; sourceTree = "<group>"; };
 		7B139F1C1E14DEA300A4A165 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7B18E7B11E1B63040074371E /* browse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = browse.pdf; sourceTree = "<group>"; };
@@ -198,7 +131,6 @@
 		7B18E7BF1E1B7D300074371E /* blackstar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = blackstar.pdf; sourceTree = "<group>"; };
 		7B18E7C01E1B7D300074371E /* yellowstar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = yellowstar.pdf; sourceTree = "<group>"; };
 		7B18E7C31E1B7D8A0074371E /* UserRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRating.swift; sourceTree = "<group>"; };
-		7B5487331E3E5CC0005B5D67 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 		7B5487361E3E76F0005B5D67 /* PirateBay-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PirateBay-Logo.png"; sourceTree = "<group>"; };
 		7B5487371E3E76F0005B5D67 /* PirateBay20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PirateBay20.png; sourceTree = "<group>"; };
 		7B5487381E3E76F0005B5D67 /* PirateBay200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PirateBay200.png; sourceTree = "<group>"; };
@@ -219,75 +151,15 @@
 		7B6BEE401E1F64AC003EA089 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		7B6BEE4A1E20DF29003EA089 /* ProductInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInfoTableViewCell.swift; sourceTree = "<group>"; };
 		7B6BEE4C1E2155B6003EA089 /* QuantityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantityTableViewController.swift; sourceTree = "<group>"; };
-		7B6BEE4E1E2166E3003EA089 /* ShoppingCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
 		7B6BEE501E216F40003EA089 /* shopping_cart.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = shopping_cart.pdf; sourceTree = "<group>"; };
-		7B6BEE531E2214A1003EA089 /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
-		7B6BEE561E222355003EA089 /* ItemInCartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemInCartTableViewCell.swift; sourceTree = "<group>"; };
-		7B6BEE571E222355003EA089 /* ItemInCartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemInCartTableViewCell.xib; sourceTree = "<group>"; };
-		7B6BEE5C1E234ED2003EA089 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		7B6BEE621E2476DD003EA089 /* CustomerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerService.swift; sourceTree = "<group>"; };
-		7B6BEE651E247D71003EA089 /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
-		7B6BEE6A1E261000003EA089 /* CustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
 		7B6BEE6F1E28943D003EA089 /* amex.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = amex.pdf; sourceTree = "<group>"; };
 		7B6BEE701E28943D003EA089 /* creditcard.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = creditcard.pdf; sourceTree = "<group>"; };
 		7B6BEE711E28943D003EA089 /* discover.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = discover.pdf; sourceTree = "<group>"; };
 		7B6BEE721E28943D003EA089 /* mastercard.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mastercard.pdf; sourceTree = "<group>"; };
 		7B6BEE731E28943D003EA089 /* visa.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = visa.pdf; sourceTree = "<group>"; };
-		7B6BEE791E289FD9003EA089 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
-		7B6BEE801E28B5FC003EA089 /* ExistingCreditCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingCreditCardTableViewCell.swift; sourceTree = "<group>"; };
-		7B6BEE821E28B60F003EA089 /* NewCreditCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCreditCardTableViewCell.swift; sourceTree = "<group>"; };
-		7B6BEE871E29F4F8003EA089 /* PopoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverTableViewController.swift; sourceTree = "<group>"; };
-		7B6BEE8C1E2A1D8F003EA089 /* ReviewOrderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewOrderTableViewController.swift; sourceTree = "<group>"; };
-		7B6BEE8F1E2A1DF0003EA089 /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
-		7B6BEE911E2A1E01003EA089 /* ShippingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingTableViewCell.swift; sourceTree = "<group>"; };
 		7BA84CE41E1864C900AE2893 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		7BA84CE51E1864C900AE2893 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 		7BA84CEA1E18662200AE2893 /* PirateBay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PirateBay.xcdatamodel; sourceTree = "<group>"; };
-		7BA84CEE1E1874F000AE2893 /* captainjake1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = captainjake1.jpg; sourceTree = "<group>"; };
-		7BA84CF01E1874F000AE2893 /* piratechest1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratechest1.jpg; sourceTree = "<group>"; };
-		7BA84CF21E1874F000AE2893 /* piratescurse1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratescurse1.jpg; sourceTree = "<group>"; };
-		7BA84CF41E1874F000AE2893 /* piratefairy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratefairy1.jpg; sourceTree = "<group>"; };
-		7BA84CF51E1874F000AE2893 /* piratefairy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratefairy2.jpg; sourceTree = "<group>"; };
-		7BA84CF71E1874F000AE2893 /* pirates1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pirates1.jpg; sourceTree = "<group>"; };
-		7BA84CF81E1874F000AE2893 /* pirates2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pirates2.jpg; sourceTree = "<group>"; };
-		7BA84CF91E1874F000AE2893 /* pirates3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pirates3.jpg; sourceTree = "<group>"; };
-		7BA84CFA1E1874F000AE2893 /* pirates4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pirates4.jpg; sourceTree = "<group>"; };
-		7BA84CFB1E1874F000AE2893 /* pirates5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pirates5.jpg; sourceTree = "<group>"; };
-		7BA84CFC1E1874F000AE2893 /* pirates6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pirates6.jpg; sourceTree = "<group>"; };
-		7BA84CFE1E1874F000AE2893 /* piratesilicon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratesilicon1.jpg; sourceTree = "<group>"; };
-		7BA84D001E1874F000AE2893 /* piratetides1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratetides1.jpg; sourceTree = "<group>"; };
-		7BA84D011E1874F000AE2893 /* piratetides2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratetides2.jpg; sourceTree = "<group>"; };
-		7BA84D021E1874F000AE2893 /* piratetides3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratetides3.jpg; sourceTree = "<group>"; };
-		7BA84D031E1874F000AE2893 /* piratetides4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratetides4.jpg; sourceTree = "<group>"; };
-		7BA84D041E1874F000AE2893 /* piratetides5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratetides5.jpg; sourceTree = "<group>"; };
-		7BA84D051E1874F000AE2893 /* piratetides6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratetides6.jpg; sourceTree = "<group>"; };
-		7BA84D071E1874F000AE2893 /* scooby1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scooby1.jpg; sourceTree = "<group>"; };
-		7BA84D0A1E1874F000AE2893 /* buccaneerboat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buccaneerboat1.jpg; sourceTree = "<group>"; };
-		7BA84D0B1E1874F000AE2893 /* buccaneerboat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buccaneerboat2.jpg; sourceTree = "<group>"; };
-		7BA84D0C1E1874F000AE2893 /* buccaneerboat3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buccaneerboat3.jpg; sourceTree = "<group>"; };
-		7BA84D0D1E1874F000AE2893 /* buccaneerboat4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buccaneerboat4.jpg; sourceTree = "<group>"; };
-		7BA84D0F1E1874F000AE2893 /* deluxeship1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deluxeship1.jpg; sourceTree = "<group>"; };
-		7BA84D111E1874F000AE2893 /* jakeneverland1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jakeneverland1.jpg; sourceTree = "<group>"; };
-		7BA84D121E1874F000AE2893 /* jakeneverland2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jakeneverland2.jpg; sourceTree = "<group>"; };
-		7BA84D131E1874F000AE2893 /* jakeneverland3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jakeneverland3.jpg; sourceTree = "<group>"; };
-		7BA84D141E1874F000AE2893 /* jakeneverland4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jakeneverland4.jpg; sourceTree = "<group>"; };
-		7BA84D151E1874F000AE2893 /* jakeneverland5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jakeneverland5.jpg; sourceTree = "<group>"; };
-		7BA84D171E1874F000AE2893 /* littletikes1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = littletikes1.jpg; sourceTree = "<group>"; };
-		7BA84D181E1874F000AE2893 /* littletikes2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = littletikes2.jpg; sourceTree = "<group>"; };
-		7BA84D191E1874F000AE2893 /* littletikes3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = littletikes3.jpg; sourceTree = "<group>"; };
-		7BA84D1A1E1874F000AE2893 /* littletikes4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = littletikes4.jpg; sourceTree = "<group>"; };
-		7BA84D1B1E1874F000AE2893 /* littletikes5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = littletikes5.jpg; sourceTree = "<group>"; };
-		7BA84D1D1E1874F000AE2893 /* popupPirate1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = popupPirate1.jpg; sourceTree = "<group>"; };
-		7BA84D1E1E1874F000AE2893 /* popupPirate2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = popupPirate2.jpg; sourceTree = "<group>"; };
-		7BA84D1F1E1874F000AE2893 /* popupPirate3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = popupPirate3.jpg; sourceTree = "<group>"; };
-		7BA84D201E1874F000AE2893 /* popupPirate4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = popupPirate4.jpg; sourceTree = "<group>"; };
-		7BA84D211E1874F000AE2893 /* popupPirate5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = popupPirate5.jpg; sourceTree = "<group>"; };
-		7BA84D221E1874F000AE2893 /* popupPirate6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = popupPirate6.jpg; sourceTree = "<group>"; };
-		7BA84D241E1874F000AE2893 /* sharkbiteship1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharkbiteship1.jpg; sourceTree = "<group>"; };
-		7BA84D251E1874F000AE2893 /* sharkbiteship2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharkbiteship2.jpg; sourceTree = "<group>"; };
-		7BA84D261E1874F000AE2893 /* sharkbiteship3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharkbiteship3.jpg; sourceTree = "<group>"; };
-		7BA84D271E1874F000AE2893 /* sharkbiteship4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharkbiteship4.jpg; sourceTree = "<group>"; };
-		7BA84D281E1874F000AE2893 /* sharkbiteship5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sharkbiteship5.jpg; sourceTree = "<group>"; };
 		7BA84D2A1E1874F000AE2893 /* toydrive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toydrive.png; sourceTree = "<group>"; };
 		7BA84D5B1E18756F00AE2893 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		7BA84D5E1E1876C100AE2893 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
@@ -388,12 +260,8 @@
 				7B18E7C01E1B7D300074371E /* yellowstar.pdf */,
 				7B18E7B11E1B63040074371E /* browse.pdf */,
 				7B18E7B21E1B63040074371E /* home.pdf */,
-				7BA84CEC1E1874F000AE2893 /* dvd */,
 				7BA84D081E1874F000AE2893 /* toy */,
 				7BA84D2A1E1874F000AE2893 /* toydrive.png */,
-				7B139F101E14DCD400A4A165 /* piratebattle.pdf */,
-				7B139F111E14DCD400A4A165 /* piratemap.pdf */,
-				7B139F121E14DCD400A4A165 /* piratesofcaribbean.pdf */,
 			);
 			name = assets;
 			sourceTree = "<group>";
@@ -401,12 +269,6 @@
 		7B139F171E14DE2500A4A165 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				7B5487321E3E5CA4005B5D67 /* orderConfirmation */,
-				7B6BEE8B1E2A1D66003EA089 /* orderSummary */,
-				7B6BEE641E247D57003EA089 /* customer */,
-				7B6BEE7E1E28B5C4003EA089 /* payment */,
-				7B6BEE5B1E234EB2003EA089 /* login */,
-				7B6BEE521E221482003EA089 /* cartCheckout */,
 				7B18E7B51E1B6B400074371E /* browse */,
 				7BA84D671E1A31D500AE2893 /* home */,
 			);
@@ -431,14 +293,6 @@
 				7B6BEE4A1E20DF29003EA089 /* ProductInfoTableViewCell.swift */,
 			);
 			name = browse;
-			sourceTree = "<group>";
-		};
-		7B5487321E3E5CA4005B5D67 /* orderConfirmation */ = {
-			isa = PBXGroup;
-			children = (
-				7B5487331E3E5CC0005B5D67 /* OrderConfirmationViewController.swift */,
-			);
-			name = orderConfirmation;
 			sourceTree = "<group>";
 		};
 		7B5487351E3E76F0005B5D67 /* AppLaunch_Icon */ = {
@@ -496,40 +350,6 @@
 			path = "Photo Safari";
 			sourceTree = "<group>";
 		};
-		7B6BEE521E221482003EA089 /* cartCheckout */ = {
-			isa = PBXGroup;
-			children = (
-				7B6BEE531E2214A1003EA089 /* CartTableViewController.swift */,
-			);
-			name = cartCheckout;
-			sourceTree = "<group>";
-		};
-		7B6BEE551E222319003EA089 /* cartCheckout */ = {
-			isa = PBXGroup;
-			children = (
-				7B6BEE561E222355003EA089 /* ItemInCartTableViewCell.swift */,
-				7B6BEE571E222355003EA089 /* ItemInCartTableViewCell.xib */,
-			);
-			name = cartCheckout;
-			sourceTree = "<group>";
-		};
-		7B6BEE5B1E234EB2003EA089 /* login */ = {
-			isa = PBXGroup;
-			children = (
-				7B6BEE5C1E234ED2003EA089 /* LoginViewController.swift */,
-			);
-			name = login;
-			sourceTree = "<group>";
-		};
-		7B6BEE641E247D57003EA089 /* customer */ = {
-			isa = PBXGroup;
-			children = (
-				7B6BEE651E247D71003EA089 /* AddressViewController.swift */,
-				7B6BEE6A1E261000003EA089 /* CustomerViewController.swift */,
-			);
-			name = customer;
-			sourceTree = "<group>";
-		};
 		7B6BEE6E1E28943D003EA089 /* creditcard */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,41 +362,6 @@
 			path = creditcard;
 			sourceTree = "<group>";
 		};
-		7B6BEE7E1E28B5C4003EA089 /* payment */ = {
-			isa = PBXGroup;
-			children = (
-				7B6BEE791E289FD9003EA089 /* PaymentViewController.swift */,
-				7B6BEE871E29F4F8003EA089 /* PopoverTableViewController.swift */,
-			);
-			name = payment;
-			sourceTree = "<group>";
-		};
-		7B6BEE7F1E28B5DF003EA089 /* payment */ = {
-			isa = PBXGroup;
-			children = (
-				7B6BEE801E28B5FC003EA089 /* ExistingCreditCardTableViewCell.swift */,
-				7B6BEE821E28B60F003EA089 /* NewCreditCardTableViewCell.swift */,
-			);
-			name = payment;
-			sourceTree = "<group>";
-		};
-		7B6BEE8B1E2A1D66003EA089 /* orderSummary */ = {
-			isa = PBXGroup;
-			children = (
-				7B6BEE8C1E2A1D8F003EA089 /* ReviewOrderTableViewController.swift */,
-			);
-			name = orderSummary;
-			sourceTree = "<group>";
-		};
-		7B6BEE8E1E2A1DD6003EA089 /* orderSummary */ = {
-			isa = PBXGroup;
-			children = (
-				7B6BEE8F1E2A1DF0003EA089 /* PaymentTableViewCell.swift */,
-				7B6BEE911E2A1E01003EA089 /* ShippingTableViewCell.swift */,
-			);
-			name = orderSummary;
-			sourceTree = "<group>";
-		};
 		7BA84CE81E1865F600AE2893 /* datamodel */ = {
 			isa = PBXGroup;
 			children = (
@@ -587,175 +372,11 @@
 			name = datamodel;
 			sourceTree = "<group>";
 		};
-		7BA84CEC1E1874F000AE2893 /* dvd */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84CED1E1874F000AE2893 /* captainjake */,
-				7BA84CEF1E1874F000AE2893 /* piratechest */,
-				7BA84CF11E1874F000AE2893 /* piratecurse */,
-				7BA84CF31E1874F000AE2893 /* piratefairy */,
-				7BA84CF61E1874F000AE2893 /* pirates */,
-				7BA84CFD1E1874F000AE2893 /* piratesilicon */,
-				7BA84CFF1E1874F000AE2893 /* piratetides */,
-				7BA84D061E1874F000AE2893 /* scooby */,
-			);
-			path = dvd;
-			sourceTree = "<group>";
-		};
-		7BA84CED1E1874F000AE2893 /* captainjake */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84CEE1E1874F000AE2893 /* captainjake1.jpg */,
-			);
-			path = captainjake;
-			sourceTree = "<group>";
-		};
-		7BA84CEF1E1874F000AE2893 /* piratechest */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84CF01E1874F000AE2893 /* piratechest1.jpg */,
-			);
-			path = piratechest;
-			sourceTree = "<group>";
-		};
-		7BA84CF11E1874F000AE2893 /* piratecurse */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84CF21E1874F000AE2893 /* piratescurse1.jpg */,
-			);
-			path = piratecurse;
-			sourceTree = "<group>";
-		};
-		7BA84CF31E1874F000AE2893 /* piratefairy */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84CF41E1874F000AE2893 /* piratefairy1.jpg */,
-				7BA84CF51E1874F000AE2893 /* piratefairy2.jpg */,
-			);
-			path = piratefairy;
-			sourceTree = "<group>";
-		};
-		7BA84CF61E1874F000AE2893 /* pirates */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84CF71E1874F000AE2893 /* pirates1.jpg */,
-				7BA84CF81E1874F000AE2893 /* pirates2.jpg */,
-				7BA84CF91E1874F000AE2893 /* pirates3.jpg */,
-				7BA84CFA1E1874F000AE2893 /* pirates4.jpg */,
-				7BA84CFB1E1874F000AE2893 /* pirates5.jpg */,
-				7BA84CFC1E1874F000AE2893 /* pirates6.jpg */,
-			);
-			path = pirates;
-			sourceTree = "<group>";
-		};
-		7BA84CFD1E1874F000AE2893 /* piratesilicon */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84CFE1E1874F000AE2893 /* piratesilicon1.jpg */,
-			);
-			path = piratesilicon;
-			sourceTree = "<group>";
-		};
-		7BA84CFF1E1874F000AE2893 /* piratetides */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84D001E1874F000AE2893 /* piratetides1.jpg */,
-				7BA84D011E1874F000AE2893 /* piratetides2.jpg */,
-				7BA84D021E1874F000AE2893 /* piratetides3.jpg */,
-				7BA84D031E1874F000AE2893 /* piratetides4.jpg */,
-				7BA84D041E1874F000AE2893 /* piratetides5.jpg */,
-				7BA84D051E1874F000AE2893 /* piratetides6.jpg */,
-			);
-			path = piratetides;
-			sourceTree = "<group>";
-		};
-		7BA84D061E1874F000AE2893 /* scooby */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84D071E1874F000AE2893 /* scooby1.jpg */,
-			);
-			path = scooby;
-			sourceTree = "<group>";
-		};
 		7BA84D081E1874F000AE2893 /* toy */ = {
 			isa = PBXGroup;
 			children = (
-				7BA84D091E1874F000AE2893 /* buccaneerBoat */,
-				7BA84D0E1E1874F000AE2893 /* deluxeship */,
-				7BA84D101E1874F000AE2893 /* jakeneverland */,
-				7BA84D161E1874F000AE2893 /* littletikes */,
-				7BA84D1C1E1874F000AE2893 /* popupPirate */,
-				7BA84D231E1874F000AE2893 /* sharkbiteship */,
 			);
 			path = toy;
-			sourceTree = "<group>";
-		};
-		7BA84D091E1874F000AE2893 /* buccaneerBoat */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84D0A1E1874F000AE2893 /* buccaneerboat1.jpg */,
-				7BA84D0B1E1874F000AE2893 /* buccaneerboat2.jpg */,
-				7BA84D0C1E1874F000AE2893 /* buccaneerboat3.jpg */,
-				7BA84D0D1E1874F000AE2893 /* buccaneerboat4.jpg */,
-			);
-			path = buccaneerBoat;
-			sourceTree = "<group>";
-		};
-		7BA84D0E1E1874F000AE2893 /* deluxeship */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84D0F1E1874F000AE2893 /* deluxeship1.jpg */,
-			);
-			path = deluxeship;
-			sourceTree = "<group>";
-		};
-		7BA84D101E1874F000AE2893 /* jakeneverland */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84D111E1874F000AE2893 /* jakeneverland1.jpg */,
-				7BA84D121E1874F000AE2893 /* jakeneverland2.jpg */,
-				7BA84D131E1874F000AE2893 /* jakeneverland3.jpg */,
-				7BA84D141E1874F000AE2893 /* jakeneverland4.jpg */,
-				7BA84D151E1874F000AE2893 /* jakeneverland5.jpg */,
-			);
-			path = jakeneverland;
-			sourceTree = "<group>";
-		};
-		7BA84D161E1874F000AE2893 /* littletikes */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84D171E1874F000AE2893 /* littletikes1.jpg */,
-				7BA84D181E1874F000AE2893 /* littletikes2.jpg */,
-				7BA84D191E1874F000AE2893 /* littletikes3.jpg */,
-				7BA84D1A1E1874F000AE2893 /* littletikes4.jpg */,
-				7BA84D1B1E1874F000AE2893 /* littletikes5.jpg */,
-			);
-			path = littletikes;
-			sourceTree = "<group>";
-		};
-		7BA84D1C1E1874F000AE2893 /* popupPirate */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84D1D1E1874F000AE2893 /* popupPirate1.jpg */,
-				7BA84D1E1E1874F000AE2893 /* popupPirate2.jpg */,
-				7BA84D1F1E1874F000AE2893 /* popupPirate3.jpg */,
-				7BA84D201E1874F000AE2893 /* popupPirate4.jpg */,
-				7BA84D211E1874F000AE2893 /* popupPirate5.jpg */,
-				7BA84D221E1874F000AE2893 /* popupPirate6.jpg */,
-			);
-			path = popupPirate;
-			sourceTree = "<group>";
-		};
-		7BA84D231E1874F000AE2893 /* sharkbiteship */ = {
-			isa = PBXGroup;
-			children = (
-				7BA84D241E1874F000AE2893 /* sharkbiteship1.jpg */,
-				7BA84D251E1874F000AE2893 /* sharkbiteship2.jpg */,
-				7BA84D261E1874F000AE2893 /* sharkbiteship3.jpg */,
-				7BA84D271E1874F000AE2893 /* sharkbiteship4.jpg */,
-				7BA84D281E1874F000AE2893 /* sharkbiteship5.jpg */,
-			);
-			path = sharkbiteship;
 			sourceTree = "<group>";
 		};
 		7BA84D5A1E18755700AE2893 /* helper */ = {
@@ -782,8 +403,6 @@
 			isa = PBXGroup;
 			children = (
 				7BA84D611E1A2CC500AE2893 /* ProductService.swift */,
-				7B6BEE4E1E2166E3003EA089 /* ShoppingCart.swift */,
-				7B6BEE621E2476DD003EA089 /* CustomerService.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -791,9 +410,6 @@
 		7BA84D631E1A311900AE2893 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				7B6BEE8E1E2A1DD6003EA089 /* orderSummary */,
-				7B6BEE7F1E28B5DF003EA089 /* payment */,
-				7B6BEE551E222319003EA089 /* cartCheckout */,
 				7B18E7B61E1B6B4C0074371E /* browse */,
 				7BA84D641E1A312600AE2893 /* home */,
 			);
@@ -978,140 +594,91 @@
 				D1732122220BEC6800B6EFAA /* Romeo_and_juliet.jpg in Resources */,
 				D1732125220BEC6800B6EFAA /* how_i_killed_pluto.jpg in Resources */,
 				D1732117220BEC6800B6EFAA /* FOSTER_WALLACE0.jpg in Resources */,
-				7B139F131E14DCD400A4A165 /* piratebattle.pdf in Resources */,
 				D1732112220BEC6800B6EFAA /* cancer_ward.jpg in Resources */,
 				7B5487441E3E76F0005B5D67 /* PirateBay20@2x.png in Resources */,
-				7BA84D3B1E1874F000AE2893 /* piratetides5.jpg in Resources */,
 				D1732100220BEC6800B6EFAA /* Calvino07.jpg in Resources */,
 				D173211E220BEC6800B6EFAA /* ugly-man.jpg in Resources */,
 				D1732129220BEC6800B6EFAA /* the_utopia_of_rule.jpg in Resources */,
 				D173210A220BEC6800B6EFAA /* get_used_to_the_seats.jpg in Resources */,
 				D1732102220BEC6800B6EFAA /* A-Breath-of-Life-250x383.jpg in Resources */,
-				7BA84D481E1874F000AE2893 /* littletikes1.jpg in Resources */,
-				7BA84D381E1874F000AE2893 /* piratetides2.jpg in Resources */,
 				7BA84D591E1874F000AE2893 /* toydrive.png in Resources */,
 				D1732110220BEC6800B6EFAA /* king_lear.jpg in Resources */,
-				7BA84D361E1874F000AE2893 /* piratesilicon1.jpg in Resources */,
 				7B5487491E3E76F0005B5D67 /* PirateBay76.png in Resources */,
 				D17320F3220BEC6800B6EFAA /* the_fractalist.large.jpg in Resources */,
 				7B6BEE741E28943D003EA089 /* amex.pdf in Resources */,
 				D17320F7220BEC6800B6EFAA /* smothered_in_hugs.jpg in Resources */,
 				7BA84CE71E1864C900AE2893 /* products.json in Resources */,
-				7BA84D4E1E1874F000AE2893 /* popupPirate2.jpg in Resources */,
-				7BA84D541E1874F000AE2893 /* sharkbiteship2.jpg in Resources */,
 				D17320F0220BEC6800B6EFAA /* reason-for-flowers.jpg in Resources */,
 				D173210B220BEC6800B6EFAA /* and_then_theres_this.large.jpg in Resources */,
 				D17320FB220BEC6800B6EFAA /* chomsky.jpg in Resources */,
 				7B54874B1E3E76F0005B5D67 /* PirateBay835@2x.png in Resources */,
-				7BA84D501E1874F000AE2893 /* popupPirate4.jpg in Resources */,
-				7BA84D311E1874F000AE2893 /* pirates2.jpg in Resources */,
-				7BA84D391E1874F000AE2893 /* piratetides3.jpg in Resources */,
 				7B5487471E3E76F0005B5D67 /* PirateBay40.png in Resources */,
 				D1732128220BEC6800B6EFAA /* the_revolution_of_little_girls.jpg in Resources */,
 				D1732116220BEC6800B6EFAA /* psychopath-test.jpg in Resources */,
 				D17320F6220BEC6800B6EFAA /* 24h_book_store.jpg in Resources */,
-				7BA84D4C1E1874F000AE2893 /* littletikes5.jpg in Resources */,
-				7BA84D4F1E1874F000AE2893 /* popupPirate3.jpg in Resources */,
 				D17320FF220BEC6800B6EFAA /* the_essensal_goethe.jpg in Resources */,
-				7BA84D4B1E1874F000AE2893 /* littletikes4.jpg in Resources */,
 				D1732127220BEC6800B6EFAA /* the_spy_son.jpg in Resources */,
-				7BA84D521E1874F000AE2893 /* popupPirate6.jpg in Resources */,
 				D173211B220BEC6800B6EFAA /* how_to_live.jpg in Resources */,
 				D1732101220BEC6800B6EFAA /* adland.jpg in Resources */,
 				7B5487411E3E76F0005B5D67 /* PirateBay-Logo.png in Resources */,
-				7BA84D2D1E1874F000AE2893 /* piratescurse1.jpg in Resources */,
 				7B6BEE781E28943D003EA089 /* visa.pdf in Resources */,
-				7BA84D3F1E1874F000AE2893 /* buccaneerboat2.jpg in Resources */,
 				7B54874A1E3E76F0005B5D67 /* PirateBay76@2x.png in Resources */,
-				7BA84D421E1874F000AE2893 /* deluxeship1.jpg in Resources */,
-				7BA84D371E1874F000AE2893 /* piratetides1.jpg in Resources */,
 				D173210F220BEC6800B6EFAA /* Midsummer.jpg in Resources */,
 				7B18E7C11E1B7D300074371E /* blackstar.pdf in Resources */,
-				7BA84D431E1874F000AE2893 /* jakeneverland1.jpg in Resources */,
 				D17320FE220BEC6800B6EFAA /* in_the_year_of_the_long_division.large.jpg in Resources */,
 				D173211A220BEC6800B6EFAA /* collected_cover.jpg in Resources */,
 				D1732103220BEC6800B6EFAA /* stolen_world.jpg in Resources */,
 				D17320F1220BEC6800B6EFAA /* cubierta_Pale.jpg in Resources */,
-				7B6BEE591E222355003EA089 /* ItemInCartTableViewCell.xib in Resources */,
-				7BA84D2C1E1874F000AE2893 /* piratechest1.jpg in Resources */,
 				D173210C220BEC6800B6EFAA /* Book-of-Strange-New-Things.jpg in Resources */,
 				D17320F9220BEC6800B6EFAA /* parrot_and_olivier_in_america.jpg in Resources */,
-				7BA84D3C1E1874F000AE2893 /* piratetides6.jpg in Resources */,
-				7BA84D551E1874F000AE2893 /* sharkbiteship3.jpg in Resources */,
 				D173211C220BEC6800B6EFAA /* aceptance.jpg in Resources */,
 				7B6BEE771E28943D003EA089 /* mastercard.pdf in Resources */,
 				D1732118220BEC6800B6EFAA /* twelfth-night.jpg in Resources */,
 				D1732109220BEC6800B6EFAA /* twtkcd.jpg in Resources */,
 				D17320F2220BEC6800B6EFAA /* lost_decades.large.jpg in Resources */,
 				D17320F5220BEC6800B6EFAA /* version_control.jpg in Resources */,
-				7BA84D2F1E1874F000AE2893 /* piratefairy2.jpg in Resources */,
 				D1732111220BEC6800B6EFAA /* black_transparency.jpg in Resources */,
 				D1732105220BEC6800B6EFAA /* the_colossus_of_maroussi.jpg in Resources */,
 				D173212B220BEC6800B6EFAA /* hemlet.jpg in Resources */,
 				D17320FC220BEC6800B6EFAA /* Badlands_unlimited_Hippias_Minor.jpg in Resources */,
 				D17320EE220BEC6800B6EFAA /* annihilation-book-cover.jpg in Resources */,
 				D17320ED220BEC6800B6EFAA /* the_science_of_the_bottom_line.jpg in Resources */,
-				7BA84D3E1E1874F000AE2893 /* buccaneerboat1.jpg in Resources */,
-				7BA84D331E1874F000AE2893 /* pirates4.jpg in Resources */,
 				D17320FA220BEC6800B6EFAA /* cunning_pan.jpg in Resources */,
 				7B6BEE511E216F40003EA089 /* shopping_cart.pdf in Resources */,
 				7B5487481E3E76F0005B5D67 /* PirateBay40@2x.png in Resources */,
 				D173212D220BFF4100B6EFAA /* art_of_immersion.jpg in Resources */,
 				D1732113220BEC6800B6EFAA /* about_a_mountain-250x374.jpg in Resources */,
 				D173211D220BEC6800B6EFAA /* who_will_run_the_frog_hospital.large.jpg in Resources */,
-				7BA84D461E1874F000AE2893 /* jakeneverland4.jpg in Resources */,
-				7BA84D2B1E1874F000AE2893 /* captainjake1.jpg in Resources */,
 				D17320EF220BEC6800B6EFAA /* winchell.jpg in Resources */,
 				7B18E7B31E1B63040074371E /* browse.pdf in Resources */,
 				D17320FD220BEC6800B6EFAA /* palo_alto.large.jpg in Resources */,
-				7BA84D441E1874F000AE2893 /* jakeneverland2.jpg in Resources */,
 				7B5487461E3E76F0005B5D67 /* PirateBay29@2x.png in Resources */,
 				D1732124220BEC6800B6EFAA /* Near-to-the-Wild-Heart.jpg in Resources */,
-				7BA84D351E1874F000AE2893 /* pirates6.jpg in Resources */,
 				D173212A220BEC6800B6EFAA /* wall_street.jpg in Resources */,
-				7B139F151E14DCD400A4A165 /* piratesofcaribbean.pdf in Resources */,
 				7B5487421E3E76F0005B5D67 /* PirateBay20.png in Resources */,
-				7B139F141E14DCD400A4A165 /* piratemap.pdf in Resources */,
-				7BA84D491E1874F000AE2893 /* littletikes2.jpg in Resources */,
 				7B55BC411E135A4F00119A75 /* Assets.xcassets in Resources */,
 				D1732120220BEC6800B6EFAA /* even_silence_has_an_end.jpg in Resources */,
 				D17320F8220BEC6800B6EFAA /* birds-of-america.jpg in Resources */,
 				D173210E220BEC6800B6EFAA /* x-book.jpg in Resources */,
-				7BA84D2E1E1874F000AE2893 /* piratefairy1.jpg in Resources */,
 				D1732104220BEC6800B6EFAA /* em3.jpg in Resources */,
-				7BA84D3D1E1874F000AE2893 /* scooby1.jpg in Resources */,
-				7BA84D531E1874F000AE2893 /* sharkbiteship1.jpg in Resources */,
 				7B6BEE751E28943D003EA089 /* creditcard.pdf in Resources */,
 				7B5487431E3E76F0005B5D67 /* PirateBay200.png in Resources */,
 				D173210D220BEC6800B6EFAA /* bcp-x-files.jpeg in Resources */,
 				D1732108220BEC6800B6EFAA /* SquareSpace6.jpg in Resources */,
 				7B18E7C21E1B7D300074371E /* yellowstar.pdf in Resources */,
 				7B18E7B41E1B63040074371E /* home.pdf in Resources */,
-				7BA84D341E1874F000AE2893 /* pirates5.jpg in Resources */,
 				D1732126220BEC6800B6EFAA /* alena.jpg in Resources */,
-				7BA84D471E1874F000AE2893 /* jakeneverland5.jpg in Resources */,
-				7BA84D401E1874F000AE2893 /* buccaneerboat3.jpg in Resources */,
 				D1732114220BEC6800B6EFAA /* silent_history.jpg in Resources */,
-				7BA84D561E1874F000AE2893 /* sharkbiteship4.jpg in Resources */,
 				7B5487451E3E76F0005B5D67 /* PirateBay29.png in Resources */,
 				D1732119220BEC6800B6EFAA /* Othello.jpg in Resources */,
-				7BA84D451E1874F000AE2893 /* jakeneverland3.jpg in Resources */,
 				D1732115220BEC6800B6EFAA /* the_last_skin.large.jpg in Resources */,
-				7BA84D571E1874F000AE2893 /* sharkbiteship5.jpg in Resources */,
 				7B6BEE761E28943D003EA089 /* discover.pdf in Resources */,
-				7BA84D411E1874F000AE2893 /* buccaneerboat4.jpg in Resources */,
-				7BA84D321E1874F000AE2893 /* pirates3.jpg in Resources */,
 				D1732106220BEC6800B6EFAA /* three_delays.jpg in Resources */,
-				7BA84D3A1E1874F000AE2893 /* piratetides4.jpg in Resources */,
-				7BA84D511E1874F000AE2893 /* popupPirate5.jpg in Resources */,
 				D173211F220BEC6800B6EFAA /* not_to_disturb.jpg in Resources */,
-				7BA84D301E1874F000AE2893 /* pirates1.jpg in Resources */,
-				7BA84D4A1E1874F000AE2893 /* littletikes3.jpg in Resources */,
 				D17320F4220BEC6800B6EFAA /* closing_time.large.jpg in Resources */,
 				D1732121220BEC6800B6EFAA /* witches-of-america.jpg in Resources */,
 				D1732123220BEC6800B6EFAA /* visible-man.jpg in Resources */,
 				7B55BC3F1E135A4F00119A75 /* Main.storyboard in Resources */,
-				7BA84D4D1E1874F000AE2893 /* popupPirate1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1164,40 +731,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B139F1B1E14DE7B00A4A165 /* PromoContentViewController.swift in Sources */,
-				7B6BEE541E2214A1003EA089 /* CartTableViewController.swift in Sources */,
 				7BA84D621E1A2CC500AE2893 /* ProductService.swift in Sources */,
-				7B6BEE6B1E261000003EA089 /* CustomerViewController.swift in Sources */,
 				7BCE1B201E1DF6E4002644D1 /* DetailSummaryView.swift in Sources */,
 				7B6BEE411E1F64AC003EA089 /* UIImage+Extension.swift in Sources */,
 				7BCE1B1C1E1DEE9E002644D1 /* MyButton.swift in Sources */,
-				7B6BEE7A1E289FD9003EA089 /* PaymentViewController.swift in Sources */,
 				7BA84D5F1E1876C100AE2893 /* String+Extension.swift in Sources */,
 				7B55BC3A1E135A4F00119A75 /* AppDelegate.swift in Sources */,
 				7BA84D5C1E18756F00AE2893 /* Utility.swift in Sources */,
 				7BA84CEB1E18662200AE2893 /* PirateBay.xcdatamodeld in Sources */,
 				7B139F1D1E14DEA300A4A165 /* HomeViewController.swift in Sources */,
-				7B6BEE581E222355003EA089 /* ItemInCartTableViewCell.swift in Sources */,
-				7B6BEE831E28B60F003EA089 /* NewCreditCardTableViewCell.swift in Sources */,
-				7B6BEE631E2476DD003EA089 /* CustomerService.swift in Sources */,
-				7B6BEE5D1E234ED2003EA089 /* LoginViewController.swift in Sources */,
 				7BA84D661E1A315500AE2893 /* ProductCollectionViewCell.swift in Sources */,
 				7B18E7BC1E1B6DB50074371E /* Double+Extension.swift in Sources */,
 				7B18E7BA1E1B6B870074371E /* ProductsTableViewCell.swift in Sources */,
-				7B6BEE8D1E2A1D8F003EA089 /* ReviewOrderTableViewController.swift in Sources */,
-				7B6BEE4F1E2166E3003EA089 /* ShoppingCart.swift in Sources */,
-				7B6BEE811E28B5FC003EA089 /* ExistingCreditCardTableViewCell.swift in Sources */,
-				7B6BEE901E2A1DF0003EA089 /* PaymentTableViewCell.swift in Sources */,
 				7B18E7BE1E1B778E0074371E /* UIColor+Extension.swift in Sources */,
-				7B5487341E3E5CC0005B5D67 /* OrderConfirmationViewController.swift in Sources */,
 				7B6BEE4D1E2155B6003EA089 /* QuantityTableViewController.swift in Sources */,
 				7B6BEE4B1E20DF29003EA089 /* ProductInfoTableViewCell.swift in Sources */,
 				7BA84CE61E1864C900AE2893 /* CoreDataStack.swift in Sources */,
-				7B6BEE881E29F4F8003EA089 /* PopoverTableViewController.swift in Sources */,
 				7BCE1B1E1E1DF6A9002644D1 /* ProductDetailViewController.swift in Sources */,
 				7B18E7B81E1B6B6C0074371E /* ProductsTableViewController.swift in Sources */,
-				7B6BEE921E2A1E01003EA089 /* ShippingTableViewCell.swift in Sources */,
 				7B18E7C41E1B7D8A0074371E /* UserRating.swift in Sources */,
-				7B6BEE661E247D71003EA089 /* AddressViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

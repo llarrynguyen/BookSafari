@@ -208,6 +208,7 @@ extension HomeViewController: UICollectionViewDelegate {
         
         self.parent?.tabBarController?.selectedIndex = 1
     }
+    
 }
 
 

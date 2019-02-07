@@ -7,12 +7,6 @@ class DetailSummaryView: UIView {
     
     @IBOutlet weak var manufacturerLabel: UILabel!
     @IBOutlet weak var productNameLabel: UILabel!
-    @IBOutlet weak var listPriceLabel: UILabel!
-    @IBOutlet weak var dealPriceLabel: UILabel!
-    @IBOutlet weak var priceSavedDollarLabel: UILabel!
-    @IBOutlet weak var priceSavedPercentLabel: UILabel!
-    @IBOutlet weak var inStockLabel: UILabel!
-    @IBOutlet weak var qtyLeftLabel: UILabel!
     @IBOutlet weak var quantityButton: UIButton!
     @IBOutlet weak var addToCartButton: UIButton!
     @IBOutlet weak var productImageView: UIImageView!
@@ -37,7 +31,6 @@ class DetailSummaryView: UIView {
         buttonContainerView?.removeFromSuperview()        
         
         // Set default state
-        qtyLeftLabel.isHidden = true
         quantityButton.setTitle("Quantity: 1", for: UIControlState.normal)
         quantityButton.isEnabled = true
         quantityButton.alpha = 1.0
@@ -50,35 +43,9 @@ class DetailSummaryView: UIView {
         userRating.rating = Int(product.rating)
         
         let listPriceAttributedString = NSAttributedString(string: product.regularPrice.currencyFormatter, attributes: [NSStrikethroughStyleAttributeName: 1])
-        listPriceLabel.attributedText = listPriceAttributedString
-        
-        dealPriceLabel.text = product.salePrice.currencyFormatter
-        priceSavedDollarLabel.text = (product.regularPrice - product.salePrice).currencyFormatter
-        
+
         let percenSave = ((product.regularPrice - product.salePrice) / product.regularPrice).percentFormatter
-        priceSavedPercentLabel.text = percenSave
-        
-        if product.quantity > 0 {
-            inStockLabel.textColor = UIColor().pirateBay_green()
-            inStockLabel.text = "In Stock"
-            
-            if product.quantity < 5 {
-                qtyLeftLabel.isHidden = false
-                let qtyLeftStr = product.quantity == 1 ? "item" : "items"
-                qtyLeftLabel.text = "Only \(product.quantity) \(qtyLeftStr) left"
-            }
-        }
-        else {
-            inStockLabel.textColor = UIColor.red
-            inStockLabel.text = "Currently Unavailable"
-            
-            quantityButton.setTitle("Quantity: 0", for: UIControlState.normal)
-            quantityButton.isEnabled = false
-            quantityButton.alpha = 0.5
-            
-            addToCartButton.isEnabled = false
-            addToCartButton.alpha = 0.5
-        }
+      
         
         if let images = product.productImages {
             let allImages = images.allObjects as! [ProductImage]
