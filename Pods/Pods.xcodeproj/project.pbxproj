@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02147904E6DDA419704D3D9F892F2965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		051836499C9A364BF8B2D8468BA98188 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19203FE3D737DD11945D08B71A03E2F /* CALayer+Hero.swift */; };
+		0A64F555CC88DAD2F60EDC9C8DDE1854 /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282B551ED10F4D1379720F899C546A8D /* MatchPreprocessor.swift */; };
+		0EE54DC778D9DA5A8935BF16A704C3D8 /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7CEF8CFC484F961D1BCFF81BC967F /* UIViewController+Hero.swift */; };
+		13A64EFBFD04779380498D4E7B4A8FED /* ContrastDisplayContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D15A80D619F71A35A43CF7C3BFBBD7 /* ContrastDisplayContext.swift */; };
+		18BC048B42E116B31C759483F86580EA /* DynamicGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D497575F31897C3604E6B9DF7A5727CE /* DynamicGradient.swift */; };
+		18C300717BE7EFF2AD4E9ACD24D82786 /* DynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54883437B734A07E5E274E73B4F474DD /* DynamicColor.swift */; };
+		1ABA491CB49C7DC7D4C3AE84284909B6 /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858399636914BC5A07A776868D74F36 /* HeroTransition+Interactive.swift */; };
+		2092AE2EAC573CC0D27A1EA4FFCE8E5E /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF7B9042D2E2356DDF44262D6526A5 /* HeroStringConvertible.swift */; };
+		23F83D6E431744F35AB1FEA8174BDA4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		24C2ADDDEA42B3BEE41F5F49D87C1DAA /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86DACB1512FB8E98A988DDE11D16788 /* HeroTransition+UITabBarControllerDelegate.swift */; };
+		2A1729581AA90F80CD49DE61939D968F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		2DA7749C6B77B3F203D83F085B0E5532 /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863AF5034D74BE605D08B36D40914BFA /* DefaultAnimationPreprocessor.swift */; };
+		2DDD385F3A80C4A6FFBC17C105372890 /* DynamicColor+HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2EDEEE681D03E82F0B31B419831EAC /* DynamicColor+HSL.swift */; };
+		2FACE6D833C7871D8533E4277844E436 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D0DBA29DF31B394A30ADA438DC223E /* Array+HeroModifier.swift */; };
+		35C59AE96769A921F97984C74E6CD489 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D931C283AEEB65D46BF7C05F60E52C /* HeroTransition+UINavigationControllerDelegate.swift */; };
+		3F02ACDC271D2E43CC67EE2628A2E729 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7B2918BAB492ECAB985C04515FFE5F /* SourcePreprocessor.swift */; };
+		3F0CC2D754C2DCC0E75C15C64F641130 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05088A4C9F3ABD65DC36638CB1A9A15A /* HeroTransition+Complete.swift */; };
+		40791B398FCEA653BF9149472E88F9CA /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2C1C666956D2EA3280DEDEF7143B7 /* HeroTypes.swift */; };
+		4398975C96ED9CB56A45747FD3811556 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF09F761CA212C42A388A3663CBCBA7 /* DispatchQueue+Hero.swift */; };
+		46173F09AD4B7D86C609F3EC0009DFC5 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CDAEEB4F2FE49324963C3C864DC66 /* HeroTransition.swift */; };
+		4618D5A5124916887694427710FC8088 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB07E0CEB3312CEC8ED264B958BA1B /* Nodes.swift */; };
+		4725D40A1A27D9448AB81F426170CBFF /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843081309BE347B33883E2145A8AB8CE /* HeroTransition+Animate.swift */; };
+		4C1F16D17C47342755210D4A9995AE33 /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC9D6E59A002BF2D9BF07EF623DFA4 /* UIView+Hero.swift */; };
+		4C6B0108C3F53A7D243748AD606FEEC2 /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A318A6B74C4927FEC6B68780A66765B /* BasePreprocessor.swift */; };
+		52224A07D2E7316AEA10B21F74E2AEFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		5360303912A88E8FD196B5571B52CA07 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E895760DEFAA7E6971D621286904F6 /* HeroCoreAnimationViewContext.swift */; };
+		6017FC64D00B576BFF27A0384A488B3F /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C80068CC754B9D426797DE9620973 /* CG+Hero.swift */; };
+		63BDF52B5B1E1B97731BFA8D6C40A3A9 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A19231919B1DD412E451DCCF44948EB /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
+		664522100C8176FF0424BF7199EFECB9 /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C53FA87E9E0EF31D2204F561917B642 /* HeroModifier.swift */; };
+		66F531D30301F87FD1A68299422A25C2 /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288337A8E57097E7716D54CA0726FFE4 /* HeroTransition+CustomTransition.swift */; };
+		6B7A6C7DB460C423B7DB5C9CBACDB2F1 /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD82145E3B35D88A0CCADDDBE37861E /* HeroDebugView.swift */; };
+		711807A05D585174E16793D4A499F9F6 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38424716A7A3AC6D6C114527A0D241B /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		78F59EC92AE4C1293F9D9427CEF3A808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		79115B98C81C6F148D4EA24B55CD5D50 /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26D01885615AD09CF2C87B1AD85856 /* HeroAnimatorViewContext.swift */; };
+		7B572958D4F8671D587C601882FBAEBD /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B90473D4404615EB26989B56BD936A /* HeroDefaultAnimator.swift */; };
+		7EDE437BAB7D0A9B64D28D641AB18831 /* DynamicColor+Deriving.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F957172AD58FD1B2D63D04002B9AA3 /* DynamicColor+Deriving.swift */; };
+		7F0AAD2F8E01EAA6E6B3B1ACF7C0A4D3 /* DynamicColor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC4A918338A26B594E7CADA4CE517F /* DynamicColor-dummy.m */; };
+		820F3B2BFB2D7570271C7BB602BF810E /* HSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC074FF25699F3E4ABF011D6966F2378 /* HSL.swift */; };
+		87E612C7CE2B2F5953DFFE32C0C3959B /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065140C44010A5B3EA8888C1E45A316C /* Array.swift */; };
+		8F18F1A055784BBDB6E5C6D674D6E1DF /* DynamicColorSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828ABBD7F068958B96003953DB76087E /* DynamicColorSpace.swift */; };
+		92F28A5CD8EABF00A91C3835FE4890C5 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5104EF33D253044B6B343B4C855A2B1E /* CAMediaTimingFunction+Hero.swift */; };
+		984171C228C5906749423D8FD46FC780 /* DynamicColor+XYZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480F9D54993CB9EA131AC4AC3B6C0ADB /* DynamicColor+XYZ.swift */; };
+		9ABAD57BE5BB23CC33ADEBA1EADAA682 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE63848FC4A7EECB33A43111A1529FA /* HeroProgressRunner.swift */; };
+		A19FDF5E3A4EAE209EFFA1820954FD27 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90453B3A738E14F52351D6D642EF0A /* Parser.swift */; };
+		A2A7A90F22750AC934A4F87579990B83 /* DynamicColor+HSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5148073418DA9451A9BB16ADD64062C1 /* DynamicColor+HSB.swift */; };
+		A5BFB943657D84EC94A24756D52B1913 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834941E1D000428EC3EDABE4CC1F851 /* Utils.swift */; };
+		A8F5766728D5FD9D226DE55444D9680F /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80405993E78E3B8DD2AA83EB13D1AC4D /* HeroContext.swift */; };
+		A9C7779864E075223C2216DF5A0F1A08 /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B4C11B9FAE0140C79EA39CC9648539 /* Hero-dummy.m */; };
+		AA32D2FD4AA37666D6557CBF9E98BC34 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB88EF9D09A91AC7678D295E1C709807 /* HeroDebugPlugin.swift */; };
+		AB86AC178A1A689D0700114A57D0B746 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FECE644FD7366DE1C601D326E6A998B /* ConditionalPreprocessor.swift */; };
+		ABF53584E358E1CE088D7435EDDA48E5 /* Pods-Photo Safari-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F885401F2B2A8BA50C0AA77EDF1C9F79 /* Pods-Photo Safari-dummy.m */; };
+		B0882FF514266B8A609B74E74485EF57 /* HeroCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C5B3DADA4176284FA4813F01D19138 /* HeroCompatible.swift */; };
+		B8666AB6C52AD771D32CBCC6328DDCC5 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1EDEF917EBA219DA0B61EA7F19105F /* CascadePreprocessor.swift */; };
+		C018A6019F5D9D1B3193A03AC33980FC /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD8A8105C83B757FE0182896424B847 /* HeroModifier+HeroStringConvertible.swift */; };
+		C08B04464C37BB8174436B4154DCB4ED /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8747FC8D36410D52D99F0BC14D965920 /* Lexer.swift */; };
+		C2C8D04A03280B342EB0C86487352047 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641363EEC97AD5C3E4DBDF4EA67A920A /* HeroViewPropertyViewContext.swift */; };
+		C40A48317296128768994A48FCC3A7E8 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9F450814AD535A520FF601981CFEA /* HeroTransition+Start.swift */; };
+		C57B5C48FCD2EF32EE37550673640BF7 /* DynamicColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE3D0EBC8163A8346A0064667F9EA9 /* DynamicColor+RGBA.swift */; };
+		CB75DFB4A37A0F0F30A3BCFE1CCB3FA0 /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A820CAAD4DCD7652C6444573128227EA /* HeroTransitionState.swift */; };
+		CCC27DA624A1A9641BB10803EA02ACAD /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F2A66F341F500D479233D2FCFE4EB8 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D03305BFB0BFD9DB1BD4E7C623BFC8BF /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66877E81506EF514ABE2BA83CA5FA0DE /* Regex.swift */; };
+		D090BEB823C42C2E7581BC6DCE8FEC2B /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3CC3B774B3DA1E1E1CA21A1CF3FFC1 /* UIKit+Hero.swift */; };
+		D0BA13915B2339FDE5B44A04F92EDB6A /* Pods-Photo Safari-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 087061F5F2491C8CE815E6569D89FCBB /* Pods-Photo Safari-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D467DD9164F159B9E9C246841C1A6F2F /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A50762C2F7E0160FC3DE74EC9A0D51 /* HeroViewControllerDelegate.swift */; };
+		DA41501A85A41D0268402A96C69660D6 /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8DA98EE6F0689616643A9B95767F4 /* HeroPlugin.swift */; };
+		E51B576B12B14AA067F72990AF5A6AB8 /* DynamicColor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57BF0C21E40759D982B349314E1C0B1E /* DynamicColor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECDED6F5D37F8D303278531D255AEADE /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4923217F3C5A1F1F16CB3E29E0F46B /* HeroTargetState.swift */; };
+		FB216869C5F0C9491C982F421540C216 /* DynamicColor+Mixing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC68801D1195E906552ECE1B237AAF16 /* DynamicColor+Mixing.swift */; };
+		FCB1A7361740F011D930D96B70BEEC8F /* DynamicColor+Lab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA14AF6F5713A98478D5F3A73D5DC590 /* DynamicColor+Lab.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1B013DE16B0A4D6B2ADB9119358D547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C13CF7F13B883769BA440C16F9FFD00;
+			remoteInfo = Hero;
+		};
+		B1EB8370C92143DECD627BB541C7817D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19864AB8F7B8E9064740E008772C4404;
+			remoteInfo = DynamicColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A50762C2F7E0160FC3DE74EC9A0D51 /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
+		01F8DA98EE6F0689616643A9B95767F4 /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		05088A4C9F3ABD65DC36638CB1A9A15A /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
+		065140C44010A5B3EA8888C1E45A316C /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Sources/Array.swift; sourceTree = "<group>"; };
+		087061F5F2491C8CE815E6569D89FCBB /* Pods-Photo Safari-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Photo Safari-umbrella.h"; sourceTree = "<group>"; };
+		0CBB052453C2105670EDE53A7464B8A3 /* Pods-Photo Safari.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Photo Safari.modulemap"; sourceTree = "<group>"; };
+		10D0DBA29DF31B394A30ADA438DC223E /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		12D931C283AEEB65D46BF7C05F60E52C /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		1B03E54168E10294912ADCFCBBEC7BDD /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hero.modulemap; sourceTree = "<group>"; };
+		2350BB02B607380FAB8268752E7B9629 /* Pods-Photo Safari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Photo Safari.debug.xcconfig"; sourceTree = "<group>"; };
+		26CD707D0BB44CDF30676C5E70AEA091 /* DynamicColor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicColor.xcconfig; sourceTree = "<group>"; };
+		27BF7B9042D2E2356DDF44262D6526A5 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
+		282B551ED10F4D1379720F899C546A8D /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		283BCF9394766E7339558E09C0F36903 /* DynamicColor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-prefix.pch"; sourceTree = "<group>"; };
+		2858399636914BC5A07A776868D74F36 /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
+		288337A8E57097E7716D54CA0726FFE4 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		2CE7CEF8CFC484F961D1BCFF81BC967F /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
+		3772820B71C4A4C82493201BFB2AF9FC /* Pods-Photo Safari-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Photo Safari-frameworks.sh"; sourceTree = "<group>"; };
+		3A19231919B1DD412E451DCCF44948EB /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		3C53FA87E9E0EF31D2204F561917B642 /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		3E3CC3B774B3DA1E1E1CA21A1CF3FFC1 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		3E4923217F3C5A1F1F16CB3E29E0F46B /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		42D15A80D619F71A35A43CF7C3BFBBD7 /* ContrastDisplayContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContrastDisplayContext.swift; path = Sources/ContrastDisplayContext.swift; sourceTree = "<group>"; };
+		480F9D54993CB9EA131AC4AC3B6C0ADB /* DynamicColor+XYZ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+XYZ.swift"; path = "Sources/DynamicColor+XYZ.swift"; sourceTree = "<group>"; };
+		4C138432632FBC17F98B9A9F162027F9 /* Pods_Photo_Safari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Photo_Safari.framework; path = "Pods-Photo Safari.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB2C1C666956D2EA3280DEDEF7143B7 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
+		5104EF33D253044B6B343B4C855A2B1E /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		5148073418DA9451A9BB16ADD64062C1 /* DynamicColor+HSB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+HSB.swift"; path = "Sources/DynamicColor+HSB.swift"; sourceTree = "<group>"; };
+		54883437B734A07E5E274E73B4F474DD /* DynamicColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicColor.swift; path = Sources/DynamicColor.swift; sourceTree = "<group>"; };
+		5700E2BBF63664F66FA733D0DABF50EE /* DynamicColor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicColor.modulemap; sourceTree = "<group>"; };
+		578CDAEEB4F2FE49324963C3C864DC66 /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
+		57BF0C21E40759D982B349314E1C0B1E /* DynamicColor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicColor-umbrella.h"; sourceTree = "<group>"; };
+		58B90473D4404615EB26989B56BD936A /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		5A318A6B74C4927FEC6B68780A66765B /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		5D2EDEEE681D03E82F0B31B419831EAC /* DynamicColor+HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+HSL.swift"; path = "Sources/DynamicColor+HSL.swift"; sourceTree = "<group>"; };
+		60B4C11B9FAE0140C79EA39CC9648539 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		641363EEC97AD5C3E4DBDF4EA67A920A /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		66877E81506EF514ABE2BA83CA5FA0DE /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		74AC4A918338A26B594E7CADA4CE517F /* DynamicColor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicColor-dummy.m"; sourceTree = "<group>"; };
+		7A9BB93CFB731770BE483432E6102A69 /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		7F3B9AF0688738A46E9374EB920C87D2 /* Pods-Photo Safari-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Photo Safari-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FECE644FD7366DE1C601D326E6A998B /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		80405993E78E3B8DD2AA83EB13D1AC4D /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
+		828ABBD7F068958B96003953DB76087E /* DynamicColorSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicColorSpace.swift; path = Sources/DynamicColorSpace.swift; sourceTree = "<group>"; };
+		834C80068CC754B9D426797DE9620973 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
+		843081309BE347B33883E2145A8AB8CE /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
+		863AF5034D74BE605D08B36D40914BFA /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		8747FC8D36410D52D99F0BC14D965920 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
+		8D7B2918BAB492ECAB985C04515FFE5F /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		8DD8A8105C83B757FE0182896424B847 /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		8FF09F761CA212C42A388A3663CBCBA7 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		90FA3433BA7BCF0C2564B3BA11AA4D42 /* Pods-Photo Safari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Photo Safari.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		985E20C294FBAD5EA60D9DE156600D32 /* Pods-Photo Safari-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Photo Safari-resources.sh"; sourceTree = "<group>"; };
+		99CB07E0CEB3312CEC8ED264B958BA1B /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
+		A820CAAD4DCD7652C6444573128227EA /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
+		A834941E1D000428EC3EDABE4CC1F851 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
+		A93533157EF456740EAEA2985F3913A0 /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
+		A9F2A66F341F500D479233D2FCFE4EB8 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		AF90453B3A738E14F52351D6D642EF0A /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
+		B0891300648B03E97CD0C838DFFB0219 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86DACB1512FB8E98A988DDE11D16788 /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		B9F957172AD58FD1B2D63D04002B9AA3 /* DynamicColor+Deriving.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Deriving.swift"; path = "Sources/DynamicColor+Deriving.swift"; sourceTree = "<group>"; };
+		BAE63848FC4A7EECB33A43111A1529FA /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C19203FE3D737DD11945D08B71A03E2F /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		C4E895760DEFAA7E6971D621286904F6 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		C6AE3D0EBC8163A8346A0064667F9EA9 /* DynamicColor+RGBA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+RGBA.swift"; path = "Sources/DynamicColor+RGBA.swift"; sourceTree = "<group>"; };
+		C9C5B3DADA4176284FA4813F01D19138 /* HeroCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCompatible.swift; path = Sources/HeroCompatible.swift; sourceTree = "<group>"; };
+		CA14AF6F5713A98478D5F3A73D5DC590 /* DynamicColor+Lab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Lab.swift"; path = "Sources/DynamicColor+Lab.swift"; sourceTree = "<group>"; };
+		CB88EF9D09A91AC7678D295E1C709807 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
+		D38424716A7A3AC6D6C114527A0D241B /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		D497575F31897C3604E6B9DF7A5727CE /* DynamicGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicGradient.swift; path = Sources/DynamicGradient.swift; sourceTree = "<group>"; };
+		DC074FF25699F3E4ABF011D6966F2378 /* HSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSL.swift; path = Sources/HSL.swift; sourceTree = "<group>"; };
+		DC68801D1195E906552ECE1B237AAF16 /* DynamicColor+Mixing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DynamicColor+Mixing.swift"; path = "Sources/DynamicColor+Mixing.swift"; sourceTree = "<group>"; };
+		DF26D01885615AD09CF2C87B1AD85856 /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		E0422CE24FF36DE1C9B654A92A83FB90 /* Pods-Photo Safari-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Photo Safari-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0D0F30A4F77C00B7DDB1220D474AC10 /* DynamicColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicColor.framework; path = DynamicColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A82F45AF995325ABC5B7D22D3AD2D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3F9F450814AD535A520FF601981CFEA /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		E9376DCFB635C98E8E0AFF8662D39B74 /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABC9D6E59A002BF2D9BF07EF623DFA4 /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		F885401F2B2A8BA50C0AA77EDF1C9F79 /* Pods-Photo Safari-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Photo Safari-dummy.m"; sourceTree = "<group>"; };
+		F9B73FDBC2EDB2E7B7D38CCFEC2ED107 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD82145E3B35D88A0CCADDDBE37861E /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
+		FD1EDEF917EBA219DA0B61EA7F19105F /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A6EF810F22E82C2B824182DD65E2273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1729581AA90F80CD49DE61939D968F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6003D0B527F616C69AA43F062BFDD55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52224A07D2E7316AEA10B21F74E2AEFD /* Foundation.framework in Frameworks */,
+				02147904E6DDA419704D3D9F892F2965 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F04A990AEDCB0A5C550D470C1CE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F59EC92AE4C1293F9D9427CEF3A808 /* Foundation.framework in Frameworks */,
+				23F83D6E431744F35AB1FEA8174BDA4A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		428FB51C1A0A65DD2A03834E64BE4D03 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				10D0DBA29DF31B394A30ADA438DC223E /* Array+HeroModifier.swift */,
+				5A318A6B74C4927FEC6B68780A66765B /* BasePreprocessor.swift */,
+				C19203FE3D737DD11945D08B71A03E2F /* CALayer+Hero.swift */,
+				5104EF33D253044B6B343B4C855A2B1E /* CAMediaTimingFunction+Hero.swift */,
+				FD1EDEF917EBA219DA0B61EA7F19105F /* CascadePreprocessor.swift */,
+				834C80068CC754B9D426797DE9620973 /* CG+Hero.swift */,
+				7FECE644FD7366DE1C601D326E6A998B /* ConditionalPreprocessor.swift */,
+				863AF5034D74BE605D08B36D40914BFA /* DefaultAnimationPreprocessor.swift */,
+				8FF09F761CA212C42A388A3663CBCBA7 /* DispatchQueue+Hero.swift */,
+				DF26D01885615AD09CF2C87B1AD85856 /* HeroAnimatorViewContext.swift */,
+				C9C5B3DADA4176284FA4813F01D19138 /* HeroCompatible.swift */,
+				80405993E78E3B8DD2AA83EB13D1AC4D /* HeroContext.swift */,
+				C4E895760DEFAA7E6971D621286904F6 /* HeroCoreAnimationViewContext.swift */,
+				CB88EF9D09A91AC7678D295E1C709807 /* HeroDebugPlugin.swift */,
+				FAD82145E3B35D88A0CCADDDBE37861E /* HeroDebugView.swift */,
+				58B90473D4404615EB26989B56BD936A /* HeroDefaultAnimator.swift */,
+				3C53FA87E9E0EF31D2204F561917B642 /* HeroModifier.swift */,
+				8DD8A8105C83B757FE0182896424B847 /* HeroModifier+HeroStringConvertible.swift */,
+				01F8DA98EE6F0689616643A9B95767F4 /* HeroPlugin.swift */,
+				BAE63848FC4A7EECB33A43111A1529FA /* HeroProgressRunner.swift */,
+				27BF7B9042D2E2356DDF44262D6526A5 /* HeroStringConvertible.swift */,
+				3E4923217F3C5A1F1F16CB3E29E0F46B /* HeroTargetState.swift */,
+				578CDAEEB4F2FE49324963C3C864DC66 /* HeroTransition.swift */,
+				843081309BE347B33883E2145A8AB8CE /* HeroTransition+Animate.swift */,
+				05088A4C9F3ABD65DC36638CB1A9A15A /* HeroTransition+Complete.swift */,
+				288337A8E57097E7716D54CA0726FFE4 /* HeroTransition+CustomTransition.swift */,
+				2858399636914BC5A07A776868D74F36 /* HeroTransition+Interactive.swift */,
+				E3F9F450814AD535A520FF601981CFEA /* HeroTransition+Start.swift */,
+				12D931C283AEEB65D46BF7C05F60E52C /* HeroTransition+UINavigationControllerDelegate.swift */,
+				B86DACB1512FB8E98A988DDE11D16788 /* HeroTransition+UITabBarControllerDelegate.swift */,
+				3A19231919B1DD412E451DCCF44948EB /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
+				A820CAAD4DCD7652C6444573128227EA /* HeroTransitionState.swift */,
+				4DB2C1C666956D2EA3280DEDEF7143B7 /* HeroTypes.swift */,
+				00A50762C2F7E0160FC3DE74EC9A0D51 /* HeroViewControllerDelegate.swift */,
+				641363EEC97AD5C3E4DBDF4EA67A920A /* HeroViewPropertyViewContext.swift */,
+				D38424716A7A3AC6D6C114527A0D241B /* IgnoreSubviewModifiersPreprocessor.swift */,
+				8747FC8D36410D52D99F0BC14D965920 /* Lexer.swift */,
+				282B551ED10F4D1379720F899C546A8D /* MatchPreprocessor.swift */,
+				99CB07E0CEB3312CEC8ED264B958BA1B /* Nodes.swift */,
+				AF90453B3A738E14F52351D6D642EF0A /* Parser.swift */,
+				66877E81506EF514ABE2BA83CA5FA0DE /* Regex.swift */,
+				8D7B2918BAB492ECAB985C04515FFE5F /* SourcePreprocessor.swift */,
+				3E3CC3B774B3DA1E1E1CA21A1CF3FFC1 /* UIKit+Hero.swift */,
+				EABC9D6E59A002BF2D9BF07EF623DFA4 /* UIView+Hero.swift */,
+				2CE7CEF8CFC484F961D1BCFF81BC967F /* UIViewController+Hero.swift */,
+				DF6B097F8DF2D3D1441F7470A36709DF /* Support Files */,
+			);
+			name = Hero;
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53329CF3D4A1401D83768B1F15027C43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECF1FC40A6D752E4D00BF573C16D40C2 /* DynamicColor */,
+				428FB51C1A0A65DD2A03834E64BE4D03 /* Hero */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		563C0DB68D6D0DB3ED8DB6FC1B17CECA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				613E434DBC48D4C7CFF32961FE847920 /* Pods-Photo Safari */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5ABFE6C4D08B2C64A5CC6575081CAAAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5700E2BBF63664F66FA733D0DABF50EE /* DynamicColor.modulemap */,
+				26CD707D0BB44CDF30676C5E70AEA091 /* DynamicColor.xcconfig */,
+				74AC4A918338A26B594E7CADA4CE517F /* DynamicColor-dummy.m */,
+				283BCF9394766E7339558E09C0F36903 /* DynamicColor-prefix.pch */,
+				57BF0C21E40759D982B349314E1C0B1E /* DynamicColor-umbrella.h */,
+				B0891300648B03E97CD0C838DFFB0219 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicColor";
+			sourceTree = "<group>";
+		};
+		613E434DBC48D4C7CFF32961FE847920 /* Pods-Photo Safari */ = {
+			isa = PBXGroup;
+			children = (
+				F9B73FDBC2EDB2E7B7D38CCFEC2ED107 /* Info.plist */,
+				0CBB052453C2105670EDE53A7464B8A3 /* Pods-Photo Safari.modulemap */,
+				7F3B9AF0688738A46E9374EB920C87D2 /* Pods-Photo Safari-acknowledgements.markdown */,
+				E0422CE24FF36DE1C9B654A92A83FB90 /* Pods-Photo Safari-acknowledgements.plist */,
+				F885401F2B2A8BA50C0AA77EDF1C9F79 /* Pods-Photo Safari-dummy.m */,
+				3772820B71C4A4C82493201BFB2AF9FC /* Pods-Photo Safari-frameworks.sh */,
+				985E20C294FBAD5EA60D9DE156600D32 /* Pods-Photo Safari-resources.sh */,
+				087061F5F2491C8CE815E6569D89FCBB /* Pods-Photo Safari-umbrella.h */,
+				2350BB02B607380FAB8268752E7B9629 /* Pods-Photo Safari.debug.xcconfig */,
+				90FA3433BA7BCF0C2564B3BA11AA4D42 /* Pods-Photo Safari.release.xcconfig */,
+			);
+			name = "Pods-Photo Safari";
+			path = "Target Support Files/Pods-Photo Safari";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				53329CF3D4A1401D83768B1F15027C43 /* Pods */,
+				7EF7E21E7D4927E59B66A302901CFBA4 /* Products */,
+				563C0DB68D6D0DB3ED8DB6FC1B17CECA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EF7E21E7D4927E59B66A302901CFBA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0D0F30A4F77C00B7DDB1220D474AC10 /* DynamicColor.framework */,
+				E9376DCFB635C98E8E0AFF8662D39B74 /* Hero.framework */,
+				4C138432632FBC17F98B9A9F162027F9 /* Pods_Photo_Safari.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF6B097F8DF2D3D1441F7470A36709DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B03E54168E10294912ADCFCBBEC7BDD /* Hero.modulemap */,
+				A93533157EF456740EAEA2985F3913A0 /* Hero.xcconfig */,
+				60B4C11B9FAE0140C79EA39CC9648539 /* Hero-dummy.m */,
+				7A9BB93CFB731770BE483432E6102A69 /* Hero-prefix.pch */,
+				A9F2A66F341F500D479233D2FCFE4EB8 /* Hero-umbrella.h */,
+				E3A82F45AF995325ABC5B7D22D3AD2D7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		ECF1FC40A6D752E4D00BF573C16D40C2 /* DynamicColor */ = {
+			isa = PBXGroup;
+			children = (
+				065140C44010A5B3EA8888C1E45A316C /* Array.swift */,
+				42D15A80D619F71A35A43CF7C3BFBBD7 /* ContrastDisplayContext.swift */,
+				54883437B734A07E5E274E73B4F474DD /* DynamicColor.swift */,
+				B9F957172AD58FD1B2D63D04002B9AA3 /* DynamicColor+Deriving.swift */,
+				5148073418DA9451A9BB16ADD64062C1 /* DynamicColor+HSB.swift */,
+				5D2EDEEE681D03E82F0B31B419831EAC /* DynamicColor+HSL.swift */,
+				CA14AF6F5713A98478D5F3A73D5DC590 /* DynamicColor+Lab.swift */,
+				DC68801D1195E906552ECE1B237AAF16 /* DynamicColor+Mixing.swift */,
+				C6AE3D0EBC8163A8346A0064667F9EA9 /* DynamicColor+RGBA.swift */,
+				480F9D54993CB9EA131AC4AC3B6C0ADB /* DynamicColor+XYZ.swift */,
+				828ABBD7F068958B96003953DB76087E /* DynamicColorSpace.swift */,
+				D497575F31897C3604E6B9DF7A5727CE /* DynamicGradient.swift */,
+				DC074FF25699F3E4ABF011D6966F2378 /* HSL.swift */,
+				A834941E1D000428EC3EDABE4CC1F851 /* Utils.swift */,
+				5ABFE6C4D08B2C64A5CC6575081CAAAE /* Support Files */,
+			);
+			name = DynamicColor;
+			path = DynamicColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		669B023444D19A9179E917A75ECA56F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC27DA624A1A9641BB10803EA02ACAD /* Hero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1F58D52612A7929018B2200E64EA38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BA13915B2339FDE5B44A04F92EDB6A /* Pods-Photo Safari-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2205445CDBE394628012A49B82D5D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51B576B12B14AA067F72990AF5A6AB8 /* DynamicColor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		036F56097C70F87B72044D2056F0F649 /* Pods-Photo Safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E0AB90EE0874EC5E6B300D396C4D65 /* Build configuration list for PBXNativeTarget "Pods-Photo Safari" */;
+			buildPhases = (
+				9D8749DBB7DD7D5DD48870C10D6FA9AB /* Sources */,
+				8A6EF810F22E82C2B824182DD65E2273 /* Frameworks */,
+				6D1F58D52612A7929018B2200E64EA38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED5434AA568685140B73A1C211F8F5B /* PBXTargetDependency */,
+				A25701E3303637F1A3068BEE831FECCB /* PBXTargetDependency */,
+			);
+			name = "Pods-Photo Safari";
+			productName = "Pods-Photo Safari";
+			productReference = 4C138432632FBC17F98B9A9F162027F9 /* Pods_Photo_Safari.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19864AB8F7B8E9064740E008772C4404 /* DynamicColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13A9148002DFE2A8C3EDF3570108D7E /* Build configuration list for PBXNativeTarget "DynamicColor" */;
+			buildPhases = (
+				CABC519707612EFA68FE21EEEFEC9DFB /* Sources */,
+				E42F04A990AEDCB0A5C550D470C1CE87 /* Frameworks */,
+				6E2205445CDBE394628012A49B82D5D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicColor;
+			productName = DynamicColor;
+			productReference = E0D0F30A4F77C00B7DDB1220D474AC10 /* DynamicColor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C13CF7F13B883769BA440C16F9FFD00 /* Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2BA51D279178106AF52F399C72F4E7 /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildPhases = (
+				5568BCF38315EA09DA5F1BA11E7CEC4A /* Sources */,
+				C6003D0B527F616C69AA43F062BFDD55 /* Frameworks */,
+				669B023444D19A9179E917A75ECA56F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hero;
+			productName = Hero;
+			productReference = E9376DCFB635C98E8E0AFF8662D39B74 /* Hero.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7EF7E21E7D4927E59B66A302901CFBA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19864AB8F7B8E9064740E008772C4404 /* DynamicColor */,
+				9C13CF7F13B883769BA440C16F9FFD00 /* Hero */,
+				036F56097C70F87B72044D2056F0F649 /* Pods-Photo Safari */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5568BCF38315EA09DA5F1BA11E7CEC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FACE6D833C7871D8533E4277844E436 /* Array+HeroModifier.swift in Sources */,
+				4C6B0108C3F53A7D243748AD606FEEC2 /* BasePreprocessor.swift in Sources */,
+				051836499C9A364BF8B2D8468BA98188 /* CALayer+Hero.swift in Sources */,
+				92F28A5CD8EABF00A91C3835FE4890C5 /* CAMediaTimingFunction+Hero.swift in Sources */,
+				B8666AB6C52AD771D32CBCC6328DDCC5 /* CascadePreprocessor.swift in Sources */,
+				6017FC64D00B576BFF27A0384A488B3F /* CG+Hero.swift in Sources */,
+				AB86AC178A1A689D0700114A57D0B746 /* ConditionalPreprocessor.swift in Sources */,
+				2DA7749C6B77B3F203D83F085B0E5532 /* DefaultAnimationPreprocessor.swift in Sources */,
+				4398975C96ED9CB56A45747FD3811556 /* DispatchQueue+Hero.swift in Sources */,
+				A9C7779864E075223C2216DF5A0F1A08 /* Hero-dummy.m in Sources */,
+				79115B98C81C6F148D4EA24B55CD5D50 /* HeroAnimatorViewContext.swift in Sources */,
+				B0882FF514266B8A609B74E74485EF57 /* HeroCompatible.swift in Sources */,
+				A8F5766728D5FD9D226DE55444D9680F /* HeroContext.swift in Sources */,
+				5360303912A88E8FD196B5571B52CA07 /* HeroCoreAnimationViewContext.swift in Sources */,
+				AA32D2FD4AA37666D6557CBF9E98BC34 /* HeroDebugPlugin.swift in Sources */,
+				6B7A6C7DB460C423B7DB5C9CBACDB2F1 /* HeroDebugView.swift in Sources */,
+				7B572958D4F8671D587C601882FBAEBD /* HeroDefaultAnimator.swift in Sources */,
+				C018A6019F5D9D1B3193A03AC33980FC /* HeroModifier+HeroStringConvertible.swift in Sources */,
+				664522100C8176FF0424BF7199EFECB9 /* HeroModifier.swift in Sources */,
+				DA41501A85A41D0268402A96C69660D6 /* HeroPlugin.swift in Sources */,
+				9ABAD57BE5BB23CC33ADEBA1EADAA682 /* HeroProgressRunner.swift in Sources */,
+				2092AE2EAC573CC0D27A1EA4FFCE8E5E /* HeroStringConvertible.swift in Sources */,
+				ECDED6F5D37F8D303278531D255AEADE /* HeroTargetState.swift in Sources */,
+				4725D40A1A27D9448AB81F426170CBFF /* HeroTransition+Animate.swift in Sources */,
+				3F0CC2D754C2DCC0E75C15C64F641130 /* HeroTransition+Complete.swift in Sources */,
+				66F531D30301F87FD1A68299422A25C2 /* HeroTransition+CustomTransition.swift in Sources */,
+				1ABA491CB49C7DC7D4C3AE84284909B6 /* HeroTransition+Interactive.swift in Sources */,
+				C40A48317296128768994A48FCC3A7E8 /* HeroTransition+Start.swift in Sources */,
+				35C59AE96769A921F97984C74E6CD489 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */,
+				24C2ADDDEA42B3BEE41F5F49D87C1DAA /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
+				63BDF52B5B1E1B97731BFA8D6C40A3A9 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				46173F09AD4B7D86C609F3EC0009DFC5 /* HeroTransition.swift in Sources */,
+				CB75DFB4A37A0F0F30A3BCFE1CCB3FA0 /* HeroTransitionState.swift in Sources */,
+				40791B398FCEA653BF9149472E88F9CA /* HeroTypes.swift in Sources */,
+				D467DD9164F159B9E9C246841C1A6F2F /* HeroViewControllerDelegate.swift in Sources */,
+				C2C8D04A03280B342EB0C86487352047 /* HeroViewPropertyViewContext.swift in Sources */,
+				711807A05D585174E16793D4A499F9F6 /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				C08B04464C37BB8174436B4154DCB4ED /* Lexer.swift in Sources */,
+				0A64F555CC88DAD2F60EDC9C8DDE1854 /* MatchPreprocessor.swift in Sources */,
+				4618D5A5124916887694427710FC8088 /* Nodes.swift in Sources */,
+				A19FDF5E3A4EAE209EFFA1820954FD27 /* Parser.swift in Sources */,
+				D03305BFB0BFD9DB1BD4E7C623BFC8BF /* Regex.swift in Sources */,
+				3F02ACDC271D2E43CC67EE2628A2E729 /* SourcePreprocessor.swift in Sources */,
+				D090BEB823C42C2E7581BC6DCE8FEC2B /* UIKit+Hero.swift in Sources */,
+				4C1F16D17C47342755210D4A9995AE33 /* UIView+Hero.swift in Sources */,
+				0EE54DC778D9DA5A8935BF16A704C3D8 /* UIViewController+Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D8749DBB7DD7D5DD48870C10D6FA9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF53584E358E1CE088D7435EDDA48E5 /* Pods-Photo Safari-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABC519707612EFA68FE21EEEFEC9DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E612C7CE2B2F5953DFFE32C0C3959B /* Array.swift in Sources */,
+				13A64EFBFD04779380498D4E7B4A8FED /* ContrastDisplayContext.swift in Sources */,
+				7EDE437BAB7D0A9B64D28D641AB18831 /* DynamicColor+Deriving.swift in Sources */,
+				A2A7A90F22750AC934A4F87579990B83 /* DynamicColor+HSB.swift in Sources */,
+				2DDD385F3A80C4A6FFBC17C105372890 /* DynamicColor+HSL.swift in Sources */,
+				FCB1A7361740F011D930D96B70BEEC8F /* DynamicColor+Lab.swift in Sources */,
+				FB216869C5F0C9491C982F421540C216 /* DynamicColor+Mixing.swift in Sources */,
+				C57B5C48FCD2EF32EE37550673640BF7 /* DynamicColor+RGBA.swift in Sources */,
+				984171C228C5906749423D8FD46FC780 /* DynamicColor+XYZ.swift in Sources */,
+				7F0AAD2F8E01EAA6E6B3B1ACF7C0A4D3 /* DynamicColor-dummy.m in Sources */,
+				18C300717BE7EFF2AD4E9ACD24D82786 /* DynamicColor.swift in Sources */,
+				8F18F1A055784BBDB6E5C6D674D6E1DF /* DynamicColorSpace.swift in Sources */,
+				18BC048B42E116B31C759483F86580EA /* DynamicGradient.swift in Sources */,
+				820F3B2BFB2D7570271C7BB602BF810E /* HSL.swift in Sources */,
+				A5BFB943657D84EC94A24756D52B1913 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ED5434AA568685140B73A1C211F8F5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicColor;
+			target = 19864AB8F7B8E9064740E008772C4404 /* DynamicColor */;
+			targetProxy = B1EB8370C92143DECD627BB541C7817D /* PBXContainerItemProxy */;
+		};
+		A25701E3303637F1A3068BEE831FECCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = 9C13CF7F13B883769BA440C16F9FFD00 /* Hero */;
+			targetProxy = B1B013DE16B0A4D6B2ADB9119358D547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FCE3F3041EE79A418C823C4A5219671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2350BB02B607380FAB8268752E7B9629 /* Pods-Photo Safari.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Photo Safari/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Photo Safari/Pods-Photo Safari.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18F62958CAB5098EAC912E81A75948F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93533157EF456740EAEA2985F3913A0 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26DA4F195CAD79ECB2EEBE23479DD216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93533157EF456740EAEA2985F3913A0 /* Hero.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		606467CDD56FACA2A942FFB5B0DFD35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CD707D0BB44CDF30676C5E70AEA091 /* DynamicColor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor/DynamicColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicColor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicColor/DynamicColor.modulemap";
+				PRODUCT_MODULE_NAME = DynamicColor;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79FF9B6B07B40EA0F3760147CB86BB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CD707D0BB44CDF30676C5E70AEA091 /* DynamicColor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicColor/DynamicColor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicColor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicColor/DynamicColor.modulemap";
+				PRODUCT_MODULE_NAME = DynamicColor;
+				PRODUCT_NAME = DynamicColor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0855E30BD581F98EEF7C618DDD9C326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FA3433BA7BCF0C2564B3BA11AA4D42 /* Pods-Photo Safari.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Photo Safari/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Photo Safari/Pods-Photo Safari.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABD1862E322BE1205C2505CB8DBFFEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7A9A9A35645317AC1B1AF6D860B11E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1862E322BE1205C2505CB8DBFFEC2 /* Debug */,
+				E7A9A9A35645317AC1B1AF6D860B11E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E0AB90EE0874EC5E6B300D396C4D65 /* Build configuration list for PBXNativeTarget "Pods-Photo Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCE3F3041EE79A418C823C4A5219671 /* Debug */,
+				A0855E30BD581F98EEF7C618DDD9C326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2BA51D279178106AF52F399C72F4E7 /* Build configuration list for PBXNativeTarget "Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26DA4F195CAD79ECB2EEBE23479DD216 /* Debug */,
+				18F62958CAB5098EAC912E81A75948F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13A9148002DFE2A8C3EDF3570108D7E /* Build configuration list for PBXNativeTarget "DynamicColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606467CDD56FACA2A942FFB5B0DFD35E /* Debug */,
+				79FF9B6B07B40EA0F3760147CB86BB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

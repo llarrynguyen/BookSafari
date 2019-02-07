@@ -1,0 +1,6 @@
+framework module Pods_Photo_Safari {
+  umbrella header "Pods-Photo Safari-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -22,7 +22,7 @@ class HomeViewController: UIViewController {
     // MARK: - Properties
     
     var pageViewController: UIPageViewController?
-    let arrPageImage = ["piratebattle", "piratemap", "piratesofcaribbean"]
+    let arrPageImage = ["home1", "home2", "home3"]
     var currentIndex = 0
     var toysCollection = [Product]()
     var dvdCollection = [Product]()

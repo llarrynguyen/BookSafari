@@ -117,6 +117,70 @@
 		7BCE1B1C1E1DEE9E002644D1 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE1B1B1E1DEE9E002644D1 /* MyButton.swift */; };
 		7BCE1B1E1E1DF6A9002644D1 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE1B1D1E1DF6A9002644D1 /* ProductDetailViewController.swift */; };
 		7BCE1B201E1DF6E4002644D1 /* DetailSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE1B1F1E1DF6E4002644D1 /* DetailSummaryView.swift */; };
+		D17320ED220BEC6800B6EFAA /* the_science_of_the_bottom_line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320AE220BEC6000B6EFAA /* the_science_of_the_bottom_line.jpg */; };
+		D17320EE220BEC6800B6EFAA /* annihilation-book-cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320AF220BEC6000B6EFAA /* annihilation-book-cover.jpg */; };
+		D17320EF220BEC6800B6EFAA /* winchell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320B0220BEC6000B6EFAA /* winchell.jpg */; };
+		D17320F0220BEC6800B6EFAA /* reason-for-flowers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320B1220BEC6000B6EFAA /* reason-for-flowers.jpg */; };
+		D17320F1220BEC6800B6EFAA /* cubierta_Pale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320B2220BEC6000B6EFAA /* cubierta_Pale.jpg */; };
+		D17320F2220BEC6800B6EFAA /* lost_decades.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320B3220BEC6000B6EFAA /* lost_decades.large.jpg */; };
+		D17320F3220BEC6800B6EFAA /* the_fractalist.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320B4220BEC6000B6EFAA /* the_fractalist.large.jpg */; };
+		D17320F4220BEC6800B6EFAA /* closing_time.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320B5220BEC6000B6EFAA /* closing_time.large.jpg */; };
+		D17320F5220BEC6800B6EFAA /* version_control.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320B6220BEC6100B6EFAA /* version_control.jpg */; };
+		D17320F6220BEC6800B6EFAA /* 24h_book_store.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320B7220BEC6100B6EFAA /* 24h_book_store.jpg */; };
+		D17320F7220BEC6800B6EFAA /* smothered_in_hugs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320B8220BEC6100B6EFAA /* smothered_in_hugs.jpg */; };
+		D17320F8220BEC6800B6EFAA /* birds-of-america.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320B9220BEC6100B6EFAA /* birds-of-america.jpg */; };
+		D17320F9220BEC6800B6EFAA /* parrot_and_olivier_in_america.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320BA220BEC6100B6EFAA /* parrot_and_olivier_in_america.jpg */; };
+		D17320FA220BEC6800B6EFAA /* cunning_pan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320BB220BEC6100B6EFAA /* cunning_pan.jpg */; };
+		D17320FB220BEC6800B6EFAA /* chomsky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320BC220BEC6100B6EFAA /* chomsky.jpg */; };
+		D17320FC220BEC6800B6EFAA /* Badlands_unlimited_Hippias_Minor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320BD220BEC6100B6EFAA /* Badlands_unlimited_Hippias_Minor.jpg */; };
+		D17320FD220BEC6800B6EFAA /* palo_alto.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320BE220BEC6100B6EFAA /* palo_alto.large.jpg */; };
+		D17320FE220BEC6800B6EFAA /* in_the_year_of_the_long_division.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320BF220BEC6100B6EFAA /* in_the_year_of_the_long_division.large.jpg */; };
+		D17320FF220BEC6800B6EFAA /* the_essensal_goethe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320C0220BEC6200B6EFAA /* the_essensal_goethe.jpg */; };
+		D1732100220BEC6800B6EFAA /* Calvino07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320C1220BEC6200B6EFAA /* Calvino07.jpg */; };
+		D1732101220BEC6800B6EFAA /* adland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320C2220BEC6200B6EFAA /* adland.jpg */; };
+		D1732102220BEC6800B6EFAA /* A-Breath-of-Life-250x383.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320C3220BEC6200B6EFAA /* A-Breath-of-Life-250x383.jpg */; };
+		D1732103220BEC6800B6EFAA /* stolen_world.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320C4220BEC6200B6EFAA /* stolen_world.jpg */; };
+		D1732104220BEC6800B6EFAA /* em3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320C5220BEC6200B6EFAA /* em3.jpg */; };
+		D1732105220BEC6800B6EFAA /* the_colossus_of_maroussi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320C6220BEC6200B6EFAA /* the_colossus_of_maroussi.jpg */; };
+		D1732106220BEC6800B6EFAA /* three_delays.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320C7220BEC6300B6EFAA /* three_delays.jpg */; };
+		D1732108220BEC6800B6EFAA /* SquareSpace6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320C9220BEC6300B6EFAA /* SquareSpace6.jpg */; };
+		D1732109220BEC6800B6EFAA /* twtkcd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320CA220BEC6300B6EFAA /* twtkcd.jpg */; };
+		D173210A220BEC6800B6EFAA /* get_used_to_the_seats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320CB220BEC6300B6EFAA /* get_used_to_the_seats.jpg */; };
+		D173210B220BEC6800B6EFAA /* and_then_theres_this.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320CC220BEC6300B6EFAA /* and_then_theres_this.large.jpg */; };
+		D173210C220BEC6800B6EFAA /* Book-of-Strange-New-Things.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320CD220BEC6300B6EFAA /* Book-of-Strange-New-Things.jpg */; };
+		D173210D220BEC6800B6EFAA /* bcp-x-files.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D17320CE220BEC6300B6EFAA /* bcp-x-files.jpeg */; };
+		D173210E220BEC6800B6EFAA /* x-book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320CF220BEC6400B6EFAA /* x-book.jpg */; };
+		D173210F220BEC6800B6EFAA /* Midsummer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320D0220BEC6400B6EFAA /* Midsummer.jpg */; };
+		D1732110220BEC6800B6EFAA /* king_lear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320D1220BEC6400B6EFAA /* king_lear.jpg */; };
+		D1732111220BEC6800B6EFAA /* black_transparency.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320D2220BEC6400B6EFAA /* black_transparency.jpg */; };
+		D1732112220BEC6800B6EFAA /* cancer_ward.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320D3220BEC6400B6EFAA /* cancer_ward.jpg */; };
+		D1732113220BEC6800B6EFAA /* about_a_mountain-250x374.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320D4220BEC6400B6EFAA /* about_a_mountain-250x374.jpg */; };
+		D1732114220BEC6800B6EFAA /* silent_history.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320D5220BEC6400B6EFAA /* silent_history.jpg */; };
+		D1732115220BEC6800B6EFAA /* the_last_skin.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320D6220BEC6400B6EFAA /* the_last_skin.large.jpg */; };
+		D1732116220BEC6800B6EFAA /* psychopath-test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320D7220BEC6500B6EFAA /* psychopath-test.jpg */; };
+		D1732117220BEC6800B6EFAA /* FOSTER_WALLACE0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320D8220BEC6500B6EFAA /* FOSTER_WALLACE0.jpg */; };
+		D1732118220BEC6800B6EFAA /* twelfth-night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320D9220BEC6500B6EFAA /* twelfth-night.jpg */; };
+		D1732119220BEC6800B6EFAA /* Othello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320DA220BEC6500B6EFAA /* Othello.jpg */; };
+		D173211A220BEC6800B6EFAA /* collected_cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320DB220BEC6500B6EFAA /* collected_cover.jpg */; };
+		D173211B220BEC6800B6EFAA /* how_to_live.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320DC220BEC6500B6EFAA /* how_to_live.jpg */; };
+		D173211C220BEC6800B6EFAA /* aceptance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320DD220BEC6500B6EFAA /* aceptance.jpg */; };
+		D173211D220BEC6800B6EFAA /* who_will_run_the_frog_hospital.large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320DE220BEC6600B6EFAA /* who_will_run_the_frog_hospital.large.jpg */; };
+		D173211E220BEC6800B6EFAA /* ugly-man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320DF220BEC6600B6EFAA /* ugly-man.jpg */; };
+		D173211F220BEC6800B6EFAA /* not_to_disturb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320E0220BEC6600B6EFAA /* not_to_disturb.jpg */; };
+		D1732120220BEC6800B6EFAA /* even_silence_has_an_end.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320E1220BEC6600B6EFAA /* even_silence_has_an_end.jpg */; };
+		D1732121220BEC6800B6EFAA /* witches-of-america.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320E2220BEC6600B6EFAA /* witches-of-america.jpg */; };
+		D1732122220BEC6800B6EFAA /* Romeo_and_juliet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320E3220BEC6600B6EFAA /* Romeo_and_juliet.jpg */; };
+		D1732123220BEC6800B6EFAA /* visible-man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320E4220BEC6600B6EFAA /* visible-man.jpg */; };
+		D1732124220BEC6800B6EFAA /* Near-to-the-Wild-Heart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320E5220BEC6600B6EFAA /* Near-to-the-Wild-Heart.jpg */; };
+		D1732125220BEC6800B6EFAA /* how_i_killed_pluto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320E6220BEC6600B6EFAA /* how_i_killed_pluto.jpg */; };
+		D1732126220BEC6800B6EFAA /* alena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320E7220BEC6700B6EFAA /* alena.jpg */; };
+		D1732127220BEC6800B6EFAA /* the_spy_son.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320E8220BEC6700B6EFAA /* the_spy_son.jpg */; };
+		D1732128220BEC6800B6EFAA /* the_revolution_of_little_girls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320E9220BEC6700B6EFAA /* the_revolution_of_little_girls.jpg */; };
+		D1732129220BEC6800B6EFAA /* the_utopia_of_rule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320EA220BEC6700B6EFAA /* the_utopia_of_rule.jpg */; };
+		D173212A220BEC6800B6EFAA /* wall_street.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320EB220BEC6800B6EFAA /* wall_street.jpg */; };
+		D173212B220BEC6800B6EFAA /* hemlet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17320EC220BEC6800B6EFAA /* hemlet.jpg */; };
+		D173212D220BFF4100B6EFAA /* art_of_immersion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D173212C220BFF4100B6EFAA /* art_of_immersion.jpg */; };
+		E9561FDD915776465BEF6BF0 /* Pods_Photo_Safari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D825EAE58E652F2A5065BBBF /* Pods_Photo_Safari.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -232,6 +296,72 @@
 		7BCE1B1B1E1DEE9E002644D1 /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		7BCE1B1D1E1DF6A9002644D1 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		7BCE1B1F1E1DF6E4002644D1 /* DetailSummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailSummaryView.swift; sourceTree = "<group>"; };
+		8A2C7B15A5256F4325C30512 /* Pods-Photo Safari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo Safari.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photo Safari/Pods-Photo Safari.release.xcconfig"; sourceTree = "<group>"; };
+		D17320AE220BEC6000B6EFAA /* the_science_of_the_bottom_line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_science_of_the_bottom_line.jpg; sourceTree = "<group>"; };
+		D17320AF220BEC6000B6EFAA /* annihilation-book-cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "annihilation-book-cover.jpg"; sourceTree = "<group>"; };
+		D17320B0220BEC6000B6EFAA /* winchell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winchell.jpg; sourceTree = "<group>"; };
+		D17320B1220BEC6000B6EFAA /* reason-for-flowers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "reason-for-flowers.jpg"; sourceTree = "<group>"; };
+		D17320B2220BEC6000B6EFAA /* cubierta_Pale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cubierta_Pale.jpg; sourceTree = "<group>"; };
+		D17320B3220BEC6000B6EFAA /* lost_decades.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lost_decades.large.jpg; sourceTree = "<group>"; };
+		D17320B4220BEC6000B6EFAA /* the_fractalist.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_fractalist.large.jpg; sourceTree = "<group>"; };
+		D17320B5220BEC6000B6EFAA /* closing_time.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = closing_time.large.jpg; sourceTree = "<group>"; };
+		D17320B6220BEC6100B6EFAA /* version_control.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = version_control.jpg; sourceTree = "<group>"; };
+		D17320B7220BEC6100B6EFAA /* 24h_book_store.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 24h_book_store.jpg; sourceTree = "<group>"; };
+		D17320B8220BEC6100B6EFAA /* smothered_in_hugs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smothered_in_hugs.jpg; sourceTree = "<group>"; };
+		D17320B9220BEC6100B6EFAA /* birds-of-america.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "birds-of-america.jpg"; sourceTree = "<group>"; };
+		D17320BA220BEC6100B6EFAA /* parrot_and_olivier_in_america.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parrot_and_olivier_in_america.jpg; sourceTree = "<group>"; };
+		D17320BB220BEC6100B6EFAA /* cunning_pan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cunning_pan.jpg; sourceTree = "<group>"; };
+		D17320BC220BEC6100B6EFAA /* chomsky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chomsky.jpg; sourceTree = "<group>"; };
+		D17320BD220BEC6100B6EFAA /* Badlands_unlimited_Hippias_Minor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Badlands_unlimited_Hippias_Minor.jpg; sourceTree = "<group>"; };
+		D17320BE220BEC6100B6EFAA /* palo_alto.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palo_alto.large.jpg; sourceTree = "<group>"; };
+		D17320BF220BEC6100B6EFAA /* in_the_year_of_the_long_division.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = in_the_year_of_the_long_division.large.jpg; sourceTree = "<group>"; };
+		D17320C0220BEC6200B6EFAA /* the_essensal_goethe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_essensal_goethe.jpg; sourceTree = "<group>"; };
+		D17320C1220BEC6200B6EFAA /* Calvino07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Calvino07.jpg; sourceTree = "<group>"; };
+		D17320C2220BEC6200B6EFAA /* adland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = adland.jpg; sourceTree = "<group>"; };
+		D17320C3220BEC6200B6EFAA /* A-Breath-of-Life-250x383.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "A-Breath-of-Life-250x383.jpg"; sourceTree = "<group>"; };
+		D17320C4220BEC6200B6EFAA /* stolen_world.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stolen_world.jpg; sourceTree = "<group>"; };
+		D17320C5220BEC6200B6EFAA /* em3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = em3.jpg; sourceTree = "<group>"; };
+		D17320C6220BEC6200B6EFAA /* the_colossus_of_maroussi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_colossus_of_maroussi.jpg; sourceTree = "<group>"; };
+		D17320C7220BEC6300B6EFAA /* three_delays.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = three_delays.jpg; sourceTree = "<group>"; };
+		D17320C9220BEC6300B6EFAA /* SquareSpace6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SquareSpace6.jpg; sourceTree = "<group>"; };
+		D17320CA220BEC6300B6EFAA /* twtkcd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twtkcd.jpg; sourceTree = "<group>"; };
+		D17320CB220BEC6300B6EFAA /* get_used_to_the_seats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = get_used_to_the_seats.jpg; sourceTree = "<group>"; };
+		D17320CC220BEC6300B6EFAA /* and_then_theres_this.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = and_then_theres_this.large.jpg; sourceTree = "<group>"; };
+		D17320CD220BEC6300B6EFAA /* Book-of-Strange-New-Things.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Book-of-Strange-New-Things.jpg"; sourceTree = "<group>"; };
+		D17320CE220BEC6300B6EFAA /* bcp-x-files.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bcp-x-files.jpeg"; sourceTree = "<group>"; };
+		D17320CF220BEC6400B6EFAA /* x-book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "x-book.jpg"; sourceTree = "<group>"; };
+		D17320D0220BEC6400B6EFAA /* Midsummer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Midsummer.jpg; sourceTree = "<group>"; };
+		D17320D1220BEC6400B6EFAA /* king_lear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = king_lear.jpg; sourceTree = "<group>"; };
+		D17320D2220BEC6400B6EFAA /* black_transparency.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black_transparency.jpg; sourceTree = "<group>"; };
+		D17320D3220BEC6400B6EFAA /* cancer_ward.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cancer_ward.jpg; sourceTree = "<group>"; };
+		D17320D4220BEC6400B6EFAA /* about_a_mountain-250x374.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "about_a_mountain-250x374.jpg"; sourceTree = "<group>"; };
+		D17320D5220BEC6400B6EFAA /* silent_history.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silent_history.jpg; sourceTree = "<group>"; };
+		D17320D6220BEC6400B6EFAA /* the_last_skin.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_last_skin.large.jpg; sourceTree = "<group>"; };
+		D17320D7220BEC6500B6EFAA /* psychopath-test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "psychopath-test.jpg"; sourceTree = "<group>"; };
+		D17320D8220BEC6500B6EFAA /* FOSTER_WALLACE0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FOSTER_WALLACE0.jpg; sourceTree = "<group>"; };
+		D17320D9220BEC6500B6EFAA /* twelfth-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "twelfth-night.jpg"; sourceTree = "<group>"; };
+		D17320DA220BEC6500B6EFAA /* Othello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Othello.jpg; sourceTree = "<group>"; };
+		D17320DB220BEC6500B6EFAA /* collected_cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collected_cover.jpg; sourceTree = "<group>"; };
+		D17320DC220BEC6500B6EFAA /* how_to_live.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = how_to_live.jpg; sourceTree = "<group>"; };
+		D17320DD220BEC6500B6EFAA /* aceptance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aceptance.jpg; sourceTree = "<group>"; };
+		D17320DE220BEC6600B6EFAA /* who_will_run_the_frog_hospital.large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = who_will_run_the_frog_hospital.large.jpg; sourceTree = "<group>"; };
+		D17320DF220BEC6600B6EFAA /* ugly-man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ugly-man.jpg"; sourceTree = "<group>"; };
+		D17320E0220BEC6600B6EFAA /* not_to_disturb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = not_to_disturb.jpg; sourceTree = "<group>"; };
+		D17320E1220BEC6600B6EFAA /* even_silence_has_an_end.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = even_silence_has_an_end.jpg; sourceTree = "<group>"; };
+		D17320E2220BEC6600B6EFAA /* witches-of-america.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "witches-of-america.jpg"; sourceTree = "<group>"; };
+		D17320E3220BEC6600B6EFAA /* Romeo_and_juliet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Romeo_and_juliet.jpg; sourceTree = "<group>"; };
+		D17320E4220BEC6600B6EFAA /* visible-man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "visible-man.jpg"; sourceTree = "<group>"; };
+		D17320E5220BEC6600B6EFAA /* Near-to-the-Wild-Heart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Near-to-the-Wild-Heart.jpg"; sourceTree = "<group>"; };
+		D17320E6220BEC6600B6EFAA /* how_i_killed_pluto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = how_i_killed_pluto.jpg; sourceTree = "<group>"; };
+		D17320E7220BEC6700B6EFAA /* alena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alena.jpg; sourceTree = "<group>"; };
+		D17320E8220BEC6700B6EFAA /* the_spy_son.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_spy_son.jpg; sourceTree = "<group>"; };
+		D17320E9220BEC6700B6EFAA /* the_revolution_of_little_girls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_revolution_of_little_girls.jpg; sourceTree = "<group>"; };
+		D17320EA220BEC6700B6EFAA /* the_utopia_of_rule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_utopia_of_rule.jpg; sourceTree = "<group>"; };
+		D17320EB220BEC6800B6EFAA /* wall_street.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall_street.jpg; sourceTree = "<group>"; };
+		D17320EC220BEC6800B6EFAA /* hemlet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hemlet.jpg; sourceTree = "<group>"; };
+		D173212C220BFF4100B6EFAA /* art_of_immersion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = art_of_immersion.jpg; sourceTree = "<group>"; };
+		D825EAE58E652F2A5065BBBF /* Pods_Photo_Safari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photo_Safari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54C2507817B4093737E948F /* Pods-Photo Safari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo Safari.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photo Safari/Pods-Photo Safari.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +369,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9561FDD915776465BEF6BF0 /* Pods_Photo_Safari.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +464,8 @@
 			children = (
 				7B55BC381E135A4F00119A75 /* Photo Safari */,
 				7B55BC371E135A4F00119A75 /* Products */,
+				D470F0F92CAE88BAE6696A75 /* Pods */,
+				C8E6EE8D52708CAAD1974C48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -692,11 +825,91 @@
 			name = button;
 			sourceTree = "<group>";
 		};
+		C8E6EE8D52708CAAD1974C48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D825EAE58E652F2A5065BBBF /* Pods_Photo_Safari.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D17320AD220BD22600B6EFAA /* bookcover */ = {
 			isa = PBXGroup;
 			children = (
+				D17320B7220BEC6100B6EFAA /* 24h_book_store.jpg */,
+				D17320C3220BEC6200B6EFAA /* A-Breath-of-Life-250x383.jpg */,
+				D17320D4220BEC6400B6EFAA /* about_a_mountain-250x374.jpg */,
+				D17320DD220BEC6500B6EFAA /* aceptance.jpg */,
+				D17320C2220BEC6200B6EFAA /* adland.jpg */,
+				D17320E7220BEC6700B6EFAA /* alena.jpg */,
+				D17320CC220BEC6300B6EFAA /* and_then_theres_this.large.jpg */,
+				D17320AF220BEC6000B6EFAA /* annihilation-book-cover.jpg */,
+				D17320BD220BEC6100B6EFAA /* Badlands_unlimited_Hippias_Minor.jpg */,
+				D17320CE220BEC6300B6EFAA /* bcp-x-files.jpeg */,
+				D17320B9220BEC6100B6EFAA /* birds-of-america.jpg */,
+				D17320D2220BEC6400B6EFAA /* black_transparency.jpg */,
+				D173212C220BFF4100B6EFAA /* art_of_immersion.jpg */,
+				D17320CD220BEC6300B6EFAA /* Book-of-Strange-New-Things.jpg */,
+				D17320C1220BEC6200B6EFAA /* Calvino07.jpg */,
+				D17320D3220BEC6400B6EFAA /* cancer_ward.jpg */,
+				D17320BC220BEC6100B6EFAA /* chomsky.jpg */,
+				D17320B5220BEC6000B6EFAA /* closing_time.large.jpg */,
+				D17320DB220BEC6500B6EFAA /* collected_cover.jpg */,
+				D17320B2220BEC6000B6EFAA /* cubierta_Pale.jpg */,
+				D17320BB220BEC6100B6EFAA /* cunning_pan.jpg */,
+				D17320C5220BEC6200B6EFAA /* em3.jpg */,
+				D17320E1220BEC6600B6EFAA /* even_silence_has_an_end.jpg */,
+				D17320D8220BEC6500B6EFAA /* FOSTER_WALLACE0.jpg */,
+				D17320CB220BEC6300B6EFAA /* get_used_to_the_seats.jpg */,
+				D17320EC220BEC6800B6EFAA /* hemlet.jpg */,
+				D17320E6220BEC6600B6EFAA /* how_i_killed_pluto.jpg */,
+				D17320DC220BEC6500B6EFAA /* how_to_live.jpg */,
+				D17320BF220BEC6100B6EFAA /* in_the_year_of_the_long_division.large.jpg */,
+				D17320D1220BEC6400B6EFAA /* king_lear.jpg */,
+				D17320B3220BEC6000B6EFAA /* lost_decades.large.jpg */,
+				D17320D0220BEC6400B6EFAA /* Midsummer.jpg */,
+				D17320E5220BEC6600B6EFAA /* Near-to-the-Wild-Heart.jpg */,
+				D17320E0220BEC6600B6EFAA /* not_to_disturb.jpg */,
+				D17320DA220BEC6500B6EFAA /* Othello.jpg */,
+				D17320BE220BEC6100B6EFAA /* palo_alto.large.jpg */,
+				D17320BA220BEC6100B6EFAA /* parrot_and_olivier_in_america.jpg */,
+				D17320D7220BEC6500B6EFAA /* psychopath-test.jpg */,
+				D17320B1220BEC6000B6EFAA /* reason-for-flowers.jpg */,
+				D17320E3220BEC6600B6EFAA /* Romeo_and_juliet.jpg */,
+				D17320D5220BEC6400B6EFAA /* silent_history.jpg */,
+				D17320B8220BEC6100B6EFAA /* smothered_in_hugs.jpg */,
+				D17320C9220BEC6300B6EFAA /* SquareSpace6.jpg */,
+				D17320C4220BEC6200B6EFAA /* stolen_world.jpg */,
+				D17320C6220BEC6200B6EFAA /* the_colossus_of_maroussi.jpg */,
+				D17320C0220BEC6200B6EFAA /* the_essensal_goethe.jpg */,
+				D17320B4220BEC6000B6EFAA /* the_fractalist.large.jpg */,
+				D17320D6220BEC6400B6EFAA /* the_last_skin.large.jpg */,
+				D17320E9220BEC6700B6EFAA /* the_revolution_of_little_girls.jpg */,
+				D17320AE220BEC6000B6EFAA /* the_science_of_the_bottom_line.jpg */,
+				D17320E8220BEC6700B6EFAA /* the_spy_son.jpg */,
+				D17320EA220BEC6700B6EFAA /* the_utopia_of_rule.jpg */,
+				D17320C7220BEC6300B6EFAA /* three_delays.jpg */,
+				D17320D9220BEC6500B6EFAA /* twelfth-night.jpg */,
+				D17320CA220BEC6300B6EFAA /* twtkcd.jpg */,
+				D17320DF220BEC6600B6EFAA /* ugly-man.jpg */,
+				D17320B6220BEC6100B6EFAA /* version_control.jpg */,
+				D17320E4220BEC6600B6EFAA /* visible-man.jpg */,
+				D17320EB220BEC6800B6EFAA /* wall_street.jpg */,
+				D17320DE220BEC6600B6EFAA /* who_will_run_the_frog_hospital.large.jpg */,
+				D17320B0220BEC6000B6EFAA /* winchell.jpg */,
+				D17320E2220BEC6600B6EFAA /* witches-of-america.jpg */,
+				D17320CF220BEC6400B6EFAA /* x-book.jpg */,
 			);
 			path = bookcover;
+			sourceTree = "<group>";
+		};
+		D470F0F92CAE88BAE6696A75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F54C2507817B4093737E948F /* Pods-Photo Safari.debug.xcconfig */,
+				8A2C7B15A5256F4325C30512 /* Pods-Photo Safari.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -706,9 +919,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B55BC481E135A4F00119A75 /* Build configuration list for PBXNativeTarget "Photo Safari" */;
 			buildPhases = (
+				F04972C8AE7AB6686594A568 /* [CP] Check Pods Manifest.lock */,
 				7B55BC321E135A4F00119A75 /* Sources */,
 				7B55BC331E135A4F00119A75 /* Frameworks */,
 				7B55BC341E135A4F00119A75 /* Resources */,
+				1A4D5B13B1DF7455128EE6B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -760,27 +975,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B55BC441E135A4F00119A75 /* LaunchScreen.storyboard in Resources */,
+				D1732122220BEC6800B6EFAA /* Romeo_and_juliet.jpg in Resources */,
+				D1732125220BEC6800B6EFAA /* how_i_killed_pluto.jpg in Resources */,
+				D1732117220BEC6800B6EFAA /* FOSTER_WALLACE0.jpg in Resources */,
 				7B139F131E14DCD400A4A165 /* piratebattle.pdf in Resources */,
+				D1732112220BEC6800B6EFAA /* cancer_ward.jpg in Resources */,
 				7B5487441E3E76F0005B5D67 /* PirateBay20@2x.png in Resources */,
 				7BA84D3B1E1874F000AE2893 /* piratetides5.jpg in Resources */,
+				D1732100220BEC6800B6EFAA /* Calvino07.jpg in Resources */,
+				D173211E220BEC6800B6EFAA /* ugly-man.jpg in Resources */,
+				D1732129220BEC6800B6EFAA /* the_utopia_of_rule.jpg in Resources */,
+				D173210A220BEC6800B6EFAA /* get_used_to_the_seats.jpg in Resources */,
+				D1732102220BEC6800B6EFAA /* A-Breath-of-Life-250x383.jpg in Resources */,
 				7BA84D481E1874F000AE2893 /* littletikes1.jpg in Resources */,
 				7BA84D381E1874F000AE2893 /* piratetides2.jpg in Resources */,
 				7BA84D591E1874F000AE2893 /* toydrive.png in Resources */,
+				D1732110220BEC6800B6EFAA /* king_lear.jpg in Resources */,
 				7BA84D361E1874F000AE2893 /* piratesilicon1.jpg in Resources */,
 				7B5487491E3E76F0005B5D67 /* PirateBay76.png in Resources */,
+				D17320F3220BEC6800B6EFAA /* the_fractalist.large.jpg in Resources */,
 				7B6BEE741E28943D003EA089 /* amex.pdf in Resources */,
+				D17320F7220BEC6800B6EFAA /* smothered_in_hugs.jpg in Resources */,
 				7BA84CE71E1864C900AE2893 /* products.json in Resources */,
 				7BA84D4E1E1874F000AE2893 /* popupPirate2.jpg in Resources */,
 				7BA84D541E1874F000AE2893 /* sharkbiteship2.jpg in Resources */,
+				D17320F0220BEC6800B6EFAA /* reason-for-flowers.jpg in Resources */,
+				D173210B220BEC6800B6EFAA /* and_then_theres_this.large.jpg in Resources */,
+				D17320FB220BEC6800B6EFAA /* chomsky.jpg in Resources */,
 				7B54874B1E3E76F0005B5D67 /* PirateBay835@2x.png in Resources */,
 				7BA84D501E1874F000AE2893 /* popupPirate4.jpg in Resources */,
 				7BA84D311E1874F000AE2893 /* pirates2.jpg in Resources */,
 				7BA84D391E1874F000AE2893 /* piratetides3.jpg in Resources */,
 				7B5487471E3E76F0005B5D67 /* PirateBay40.png in Resources */,
+				D1732128220BEC6800B6EFAA /* the_revolution_of_little_girls.jpg in Resources */,
+				D1732116220BEC6800B6EFAA /* psychopath-test.jpg in Resources */,
+				D17320F6220BEC6800B6EFAA /* 24h_book_store.jpg in Resources */,
 				7BA84D4C1E1874F000AE2893 /* littletikes5.jpg in Resources */,
 				7BA84D4F1E1874F000AE2893 /* popupPirate3.jpg in Resources */,
+				D17320FF220BEC6800B6EFAA /* the_essensal_goethe.jpg in Resources */,
 				7BA84D4B1E1874F000AE2893 /* littletikes4.jpg in Resources */,
+				D1732127220BEC6800B6EFAA /* the_spy_son.jpg in Resources */,
 				7BA84D521E1874F000AE2893 /* popupPirate6.jpg in Resources */,
+				D173211B220BEC6800B6EFAA /* how_to_live.jpg in Resources */,
+				D1732101220BEC6800B6EFAA /* adland.jpg in Resources */,
 				7B5487411E3E76F0005B5D67 /* PirateBay-Logo.png in Resources */,
 				7BA84D2D1E1874F000AE2893 /* piratescurse1.jpg in Resources */,
 				7B6BEE781E28943D003EA089 /* visa.pdf in Resources */,
@@ -788,56 +1025,138 @@
 				7B54874A1E3E76F0005B5D67 /* PirateBay76@2x.png in Resources */,
 				7BA84D421E1874F000AE2893 /* deluxeship1.jpg in Resources */,
 				7BA84D371E1874F000AE2893 /* piratetides1.jpg in Resources */,
+				D173210F220BEC6800B6EFAA /* Midsummer.jpg in Resources */,
 				7B18E7C11E1B7D300074371E /* blackstar.pdf in Resources */,
 				7BA84D431E1874F000AE2893 /* jakeneverland1.jpg in Resources */,
+				D17320FE220BEC6800B6EFAA /* in_the_year_of_the_long_division.large.jpg in Resources */,
+				D173211A220BEC6800B6EFAA /* collected_cover.jpg in Resources */,
+				D1732103220BEC6800B6EFAA /* stolen_world.jpg in Resources */,
+				D17320F1220BEC6800B6EFAA /* cubierta_Pale.jpg in Resources */,
 				7B6BEE591E222355003EA089 /* ItemInCartTableViewCell.xib in Resources */,
 				7BA84D2C1E1874F000AE2893 /* piratechest1.jpg in Resources */,
+				D173210C220BEC6800B6EFAA /* Book-of-Strange-New-Things.jpg in Resources */,
+				D17320F9220BEC6800B6EFAA /* parrot_and_olivier_in_america.jpg in Resources */,
 				7BA84D3C1E1874F000AE2893 /* piratetides6.jpg in Resources */,
 				7BA84D551E1874F000AE2893 /* sharkbiteship3.jpg in Resources */,
+				D173211C220BEC6800B6EFAA /* aceptance.jpg in Resources */,
 				7B6BEE771E28943D003EA089 /* mastercard.pdf in Resources */,
+				D1732118220BEC6800B6EFAA /* twelfth-night.jpg in Resources */,
+				D1732109220BEC6800B6EFAA /* twtkcd.jpg in Resources */,
+				D17320F2220BEC6800B6EFAA /* lost_decades.large.jpg in Resources */,
+				D17320F5220BEC6800B6EFAA /* version_control.jpg in Resources */,
 				7BA84D2F1E1874F000AE2893 /* piratefairy2.jpg in Resources */,
+				D1732111220BEC6800B6EFAA /* black_transparency.jpg in Resources */,
+				D1732105220BEC6800B6EFAA /* the_colossus_of_maroussi.jpg in Resources */,
+				D173212B220BEC6800B6EFAA /* hemlet.jpg in Resources */,
+				D17320FC220BEC6800B6EFAA /* Badlands_unlimited_Hippias_Minor.jpg in Resources */,
+				D17320EE220BEC6800B6EFAA /* annihilation-book-cover.jpg in Resources */,
+				D17320ED220BEC6800B6EFAA /* the_science_of_the_bottom_line.jpg in Resources */,
 				7BA84D3E1E1874F000AE2893 /* buccaneerboat1.jpg in Resources */,
 				7BA84D331E1874F000AE2893 /* pirates4.jpg in Resources */,
+				D17320FA220BEC6800B6EFAA /* cunning_pan.jpg in Resources */,
 				7B6BEE511E216F40003EA089 /* shopping_cart.pdf in Resources */,
 				7B5487481E3E76F0005B5D67 /* PirateBay40@2x.png in Resources */,
+				D173212D220BFF4100B6EFAA /* art_of_immersion.jpg in Resources */,
+				D1732113220BEC6800B6EFAA /* about_a_mountain-250x374.jpg in Resources */,
+				D173211D220BEC6800B6EFAA /* who_will_run_the_frog_hospital.large.jpg in Resources */,
 				7BA84D461E1874F000AE2893 /* jakeneverland4.jpg in Resources */,
 				7BA84D2B1E1874F000AE2893 /* captainjake1.jpg in Resources */,
+				D17320EF220BEC6800B6EFAA /* winchell.jpg in Resources */,
 				7B18E7B31E1B63040074371E /* browse.pdf in Resources */,
+				D17320FD220BEC6800B6EFAA /* palo_alto.large.jpg in Resources */,
 				7BA84D441E1874F000AE2893 /* jakeneverland2.jpg in Resources */,
 				7B5487461E3E76F0005B5D67 /* PirateBay29@2x.png in Resources */,
+				D1732124220BEC6800B6EFAA /* Near-to-the-Wild-Heart.jpg in Resources */,
 				7BA84D351E1874F000AE2893 /* pirates6.jpg in Resources */,
+				D173212A220BEC6800B6EFAA /* wall_street.jpg in Resources */,
 				7B139F151E14DCD400A4A165 /* piratesofcaribbean.pdf in Resources */,
 				7B5487421E3E76F0005B5D67 /* PirateBay20.png in Resources */,
 				7B139F141E14DCD400A4A165 /* piratemap.pdf in Resources */,
 				7BA84D491E1874F000AE2893 /* littletikes2.jpg in Resources */,
 				7B55BC411E135A4F00119A75 /* Assets.xcassets in Resources */,
+				D1732120220BEC6800B6EFAA /* even_silence_has_an_end.jpg in Resources */,
+				D17320F8220BEC6800B6EFAA /* birds-of-america.jpg in Resources */,
+				D173210E220BEC6800B6EFAA /* x-book.jpg in Resources */,
 				7BA84D2E1E1874F000AE2893 /* piratefairy1.jpg in Resources */,
+				D1732104220BEC6800B6EFAA /* em3.jpg in Resources */,
 				7BA84D3D1E1874F000AE2893 /* scooby1.jpg in Resources */,
 				7BA84D531E1874F000AE2893 /* sharkbiteship1.jpg in Resources */,
 				7B6BEE751E28943D003EA089 /* creditcard.pdf in Resources */,
 				7B5487431E3E76F0005B5D67 /* PirateBay200.png in Resources */,
+				D173210D220BEC6800B6EFAA /* bcp-x-files.jpeg in Resources */,
+				D1732108220BEC6800B6EFAA /* SquareSpace6.jpg in Resources */,
 				7B18E7C21E1B7D300074371E /* yellowstar.pdf in Resources */,
 				7B18E7B41E1B63040074371E /* home.pdf in Resources */,
 				7BA84D341E1874F000AE2893 /* pirates5.jpg in Resources */,
+				D1732126220BEC6800B6EFAA /* alena.jpg in Resources */,
 				7BA84D471E1874F000AE2893 /* jakeneverland5.jpg in Resources */,
 				7BA84D401E1874F000AE2893 /* buccaneerboat3.jpg in Resources */,
+				D1732114220BEC6800B6EFAA /* silent_history.jpg in Resources */,
 				7BA84D561E1874F000AE2893 /* sharkbiteship4.jpg in Resources */,
 				7B5487451E3E76F0005B5D67 /* PirateBay29.png in Resources */,
+				D1732119220BEC6800B6EFAA /* Othello.jpg in Resources */,
 				7BA84D451E1874F000AE2893 /* jakeneverland3.jpg in Resources */,
+				D1732115220BEC6800B6EFAA /* the_last_skin.large.jpg in Resources */,
 				7BA84D571E1874F000AE2893 /* sharkbiteship5.jpg in Resources */,
 				7B6BEE761E28943D003EA089 /* discover.pdf in Resources */,
 				7BA84D411E1874F000AE2893 /* buccaneerboat4.jpg in Resources */,
 				7BA84D321E1874F000AE2893 /* pirates3.jpg in Resources */,
+				D1732106220BEC6800B6EFAA /* three_delays.jpg in Resources */,
 				7BA84D3A1E1874F000AE2893 /* piratetides4.jpg in Resources */,
 				7BA84D511E1874F000AE2893 /* popupPirate5.jpg in Resources */,
+				D173211F220BEC6800B6EFAA /* not_to_disturb.jpg in Resources */,
 				7BA84D301E1874F000AE2893 /* pirates1.jpg in Resources */,
 				7BA84D4A1E1874F000AE2893 /* littletikes3.jpg in Resources */,
+				D17320F4220BEC6800B6EFAA /* closing_time.large.jpg in Resources */,
+				D1732121220BEC6800B6EFAA /* witches-of-america.jpg in Resources */,
+				D1732123220BEC6800B6EFAA /* visible-man.jpg in Resources */,
 				7B55BC3F1E135A4F00119A75 /* Main.storyboard in Resources */,
 				7BA84D4D1E1874F000AE2893 /* popupPirate1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A4D5B13B1DF7455128EE6B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Photo Safari/Pods-Photo Safari-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DynamicColor/DynamicColor.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Photo Safari/Pods-Photo Safari-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04972C8AE7AB6686594A568 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Photo Safari-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B55BC321E135A4F00119A75 /* Sources */ = {
@@ -999,6 +1318,7 @@
 		};
 		7B55BC491E135A4F00119A75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54C2507817B4093737E948F /* Pods-Photo Safari.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q8K5LFSE6P;
@@ -1012,6 +1332,7 @@
 		};
 		7B55BC4A1E135A4F00119A75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2C7B15A5256F4325C30512 /* Pods-Photo Safari.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q8K5LFSE6P;

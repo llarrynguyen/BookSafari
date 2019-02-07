@@ -56,7 +56,7 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buccaneerboat1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Cj2-Ob-3FY">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cj2-Ob-3FY">
                                                                     <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
                                                                 </imageView>
                                                             </subviews>
@@ -95,7 +95,7 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="captainjake1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="k3B-89-yA7">
+                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k3B-89-yA7">
                                                                     <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
                                                                 </imageView>
                                                             </subviews>
@@ -231,7 +231,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="piratebattle" translatesAutoresizingMaskIntoConstraints="NO" id="MtC-Pc-eRc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MtC-Pc-eRc">
                                 <rect key="frame" x="0.0" y="0.0" width="1194" height="350"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="350" id="xX8-L8-YW2"/>
@@ -301,7 +301,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BIM-v4-pHk" customClass="DetailSummaryView" customModule="Photo_Safari" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="648.5" height="450"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buccaneerboat1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H5P-vi-qQQ">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H5P-vi-qQQ">
                                                         <rect key="frame" x="20" y="20" width="324.5" height="350"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="350" id="OeH-uO-Fhk"/>
@@ -516,7 +516,7 @@ Gift-wrap available.</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gq8-UP-heC">
                                                 <rect key="frame" x="20" y="507" width="608.5" height="250"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buccaneerboat2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h35-i1-cK9">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h35-i1-cK9">
                                                         <rect key="frame" x="8" y="15" width="152" height="220"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="220" id="S7S-dj-CTI"/>
@@ -2174,7 +2174,7 @@ Gift-wrap available.</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fa6-ig-OrP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2089" y="2100"/>
+            <point key="canvasLocation" x="2236" y="2100"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="St4-33-dEA">
@@ -2220,11 +2220,8 @@ Gift-wrap available.</string>
         <image name="amex" width="121" height="79"/>
         <image name="browse" width="24" height="24"/>
         <image name="buccaneerboat1.jpg" width="1170" height="1500"/>
-        <image name="buccaneerboat2.jpg" width="1131" height="1500"/>
-        <image name="captainjake1.jpg" width="360" height="500"/>
         <image name="creditcard" width="432" height="71"/>
         <image name="home" width="24" height="24"/>
-        <image name="piratebattle" width="2350" height="804"/>
         <image name="shopping_cart" width="44" height="44"/>
         <image name="toydir" width="16" height="16"/>
     </resources>

@@ -147,7 +147,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                             productImage.image = NSData.init(data: UIImageJPEGRepresentation(currentImage!, 1.0)!)
                             productImage.name = currentImageName
                             
-                            if mainImageName == nil && currentImageName?.contains("1") == true {
+                            if mainImageName == nil {
                                 mainImageName = currentImageName
                             }
                             
