@@ -749,7 +749,7 @@
             </objects>
             <point key="canvasLocation" x="66" y="1345"/>
         </scene>
-        <!--Your Books View Controller-->
+        <!--You Personal Collection-->
         <scene sceneID="0ck-fn-oHF">
             <objects>
                 <viewController id="fjg-5I-Td0" customClass="YourBooksViewController" customModule="Photo_Safari" customModuleProvider="target" sceneMemberID="viewController">
@@ -764,28 +764,61 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="oW8-wq-6FG">
                                 <rect key="frame" x="0.0" y="113" width="1194" height="656"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WyL-wZ-7jR">
-                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="itemSize" width="420" height="394"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="yourcell" id="iHz-gA-8A8">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="yourcell" id="iHz-gA-8A8" customClass="YourCollectionViewCell" customModule="Photo_Safari" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="420" height="394"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="420" height="394"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="24h_book_store.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="m7r-As-vj7">
+                                                    <rect key="frame" x="0.0" y="0.0" width="420" height="394"/>
+                                                </imageView>
+                                                <button hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESu-Xt-gKN">
+                                                    <rect key="frame" x="340" y="0.0" width="80" height="80"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="1aA-7N-Uh7"/>
+                                                        <constraint firstAttribute="width" constant="80" id="wOa-DN-5SW"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" title="X">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="dismissAction:" destination="iHz-gA-8A8" eventType="touchUpInside" id="jb8-Ts-2B5"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
                                         </view>
+                                        <constraints>
+                                            <constraint firstItem="m7r-As-vj7" firstAttribute="leading" secondItem="iHz-gA-8A8" secondAttribute="leading" id="040-qY-YHa"/>
+                                            <constraint firstItem="ESu-Xt-gKN" firstAttribute="top" secondItem="iHz-gA-8A8" secondAttribute="top" id="RIz-2N-UFB"/>
+                                            <constraint firstItem="m7r-As-vj7" firstAttribute="top" secondItem="iHz-gA-8A8" secondAttribute="top" id="RTR-Yd-GTK"/>
+                                            <constraint firstAttribute="trailing" secondItem="ESu-Xt-gKN" secondAttribute="trailing" id="S4Y-iA-LFN"/>
+                                            <constraint firstAttribute="trailing" secondItem="m7r-As-vj7" secondAttribute="trailing" id="Zzi-qd-ywX"/>
+                                            <constraint firstAttribute="bottom" secondItem="m7r-As-vj7" secondAttribute="bottom" id="gmt-uK-US0"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dismissButton" destination="ESu-Xt-gKN" id="HPo-Mr-4wL"/>
+                                            <outlet property="productImageView" destination="m7r-As-vj7" id="Z7y-WA-Oor"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
-                    <navigationItem key="navigationItem" id="J2C-fu-r8M"/>
+                    <navigationItem key="navigationItem" title="You Personal Collection" id="J2C-fu-r8M"/>
                     <connections>
                         <outlet property="yourCollectionView" destination="oW8-wq-6FG" id="IRU-aJ-UwY"/>
                     </connections>
@@ -863,6 +896,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="24h_book_store.jpg" width="250" height="375"/>
         <image name="icons8-collectibles" width="64" height="64"/>
         <image name="icons8-hearts" width="64" height="64"/>
         <image name="icons8-volunteering" width="64" height="64"/>
