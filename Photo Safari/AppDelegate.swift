@@ -30,10 +30,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let detailNavigation = splitVC.viewControllers[1] as! UINavigationController
         let productDetailVC = detailNavigation.topViewController as! ProductDetailViewController
         
+      
         productsTableVC.delegate = productDetailVC
         
         let homeNavigation = tabBarController.viewControllers?[0] as! UINavigationController
         let homeVC = homeNavigation.topViewController as! HomeViewController
+        
+        let yourCollectionNavigation = tabBarController.viewControllers?[2] as! UINavigationController
+        let yourCollectionVC = yourCollectionNavigation.topViewController as! YourBooksViewController
+        
+        
         homeVC.productTVC = productsTableVC
         
         return true

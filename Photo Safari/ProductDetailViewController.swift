@@ -8,6 +8,11 @@
 
 import UIKit
 
+struct ProductDetailConstant {
+    static let lovedArrayIdKey = "lovedArrayIdKey"
+}
+
+
 class ProductDetailViewController: UIViewController {
 
     // MARK: - IBOutlet
@@ -16,8 +21,16 @@ class ProductDetailViewController: UIViewController {
     @IBOutlet weak var productDescriptionImageView: UIImageView!
     @IBOutlet weak var productDescriptionLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var shoppingCartButton: UIButton!
     @IBOutlet weak var cartItemCountLabel: UILabel!
+    @IBOutlet weak var addToCollectionButton: MyButton!
+    
+    
+    let userDefaults = UserDefaults.standard
+    var lovedIdsSet = Set<String>()
+    
+    var isLovedProduct = false
+    var currentProductIndex = -1
+    
     
     
     // MARK: - Properties
@@ -35,13 +48,22 @@ class ProductDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if let lovedIds = userDefaults.value(forKey: ProductDetailConstant.lovedArrayIdKey) as? Set<String>,  let currentProductId = product?.id {
+            self.lovedIdsSet = lovedIds
+            if self.lovedIdsSet.contains(currentProductId){
+                 self.isLovedProduct = true
+            }
+        }
         // Do any additional setup after loading the view.
     }
     
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
     }
     
 
@@ -70,6 +92,20 @@ class ProductDetailViewController: UIViewController {
             productDescriptionLabel.text = description
             productDescriptionImageView.image = Utility.image(withName: currentProduct.mainImage, andType: "jpg")
             
+            if let lovedIds = userDefaults.value(forKey: ProductDetailConstant.lovedArrayIdKey) as? [String],  let currentProductId = currentProduct.id {
+                self.lovedIdsSet = Set(lovedIds)
+                if self.lovedIdsSet.contains(currentProductId){
+                    self.isLovedProduct = true
+                } else {
+                    self.isLovedProduct = false
+                }
+            } else {
+                 self.isLovedProduct = false
+            }
+            
+           
+            self.changeAddItemButtonState(loved: self.isLovedProduct)
+            
             tableView.reloadData()
         }
     }
@@ -92,21 +128,40 @@ class ProductDetailViewController: UIViewController {
         
     }
     
+    func changeAddItemButtonState(loved: Bool){
+        self.addToCollectionButton.backgroundColor = loved == true ? UIColor.red : UIColor.orange
+        let buttonTitle = loved == true ? "In Your Collection" : "Add To Collection"
+        self.addToCollectionButton.setTitle(buttonTitle, for: .normal)
+    }
+    
+    func updateTabBadgeCount(count: Int){
+        if let tabItems = tabBarController?.tabBar.items {
+            // In this case we want to modify the badge number of the third tab:
+            let tabItem = tabItems[2]
+            tabItem.badgeValue = "\(count)"
+        }
+    }
+    
 
     // MARK: - IBActions
     
     @IBAction func didTapAddToCart(_ sender: MyButton) {
         if let product = product {
             // Reset the quantity
-            self.quantity = 1
-            self.detailSummaryView.quantityButton.setTitle("Quantity: 1", for: UIControlState.normal)
+             self.quantity = 1
+            isLovedProduct = !isLovedProduct
+            if isLovedProduct {
+                self.lovedIdsSet.insert(product.id!)
+            } else {
+                self.lovedIdsSet.remove(product.id!)
+            }
             
+            userDefaults.set(Array(self.lovedIdsSet), forKey: ProductDetailConstant.lovedArrayIdKey)
             DispatchQueue.main.async {
-                let alertController = UIAlertController(title: "Our Apology", message: "This feature will be ready on our next release", preferredStyle: .alert)
-                
-                let alertActon = UIAlertAction(title: "OK", style: .cancel, handler: nil)
-                alertController.addAction(alertActon)
-                self.present(alertController, animated: true, completion: nil)
+                self.updateTabBadgeCount(count: self.lovedIdsSet.count)
+                self.changeAddItemButtonState(loved: self.isLovedProduct)
+                self.detailSummaryView.quantityButton.setTitle("Quantity: 1", for: UIControlState.normal)
+               
                 
             }
         }

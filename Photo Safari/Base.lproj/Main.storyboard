@@ -341,7 +341,7 @@
                                                     </button>
                                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ft-7C-4Bb" customClass="MyButton" customModule="Photo_Safari" customModuleProvider="target">
                                                         <rect key="frame" x="374.5" y="230" width="200" height="40"/>
-                                                        <color key="backgroundColor" red="0.18039215689999999" green="0.69411764710000001" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="1" green="0.52340851359999996" blue="0.11641100460000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Add To Collection">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
@@ -561,6 +561,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1024" height="1200"/>
                     <connections>
+                        <outlet property="addToCollectionButton" destination="6ft-7C-4Bb" id="d5e-WI-9hs"/>
                         <outlet property="cartItemCountLabel" destination="SH7-aa-oCE" id="FvQ-Yi-prq"/>
                         <outlet property="detailSummaryView" destination="BIM-v4-pHk" id="PXK-UP-SiD"/>
                         <outlet property="productDescriptionImageView" destination="h35-i1-cK9" id="sb6-8V-FFg"/>
@@ -570,7 +571,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dOV-pR-ZbI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1522.6130653266332" y="1833.0935251798562"/>
+            <point key="canvasLocation" x="2230.1507537688444" y="1833.0935251798562"/>
         </scene>
         <!--Quantity Table View Controller-->
         <scene sceneID="jni-78-0az">
@@ -646,7 +647,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buccaneerboat1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3EM-7F-qMw">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3EM-7F-qMw">
                                             <rect key="frame" x="8" y="5" width="60" height="60"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="60" id="7Pe-65-jYu"/>
@@ -748,6 +749,51 @@
             </objects>
             <point key="canvasLocation" x="66" y="1345"/>
         </scene>
+        <!--Your Books View Controller-->
+        <scene sceneID="0ck-fn-oHF">
+            <objects>
+                <viewController id="fjg-5I-Td0" customClass="YourBooksViewController" customModule="Photo_Safari" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wKG-rB-0II"/>
+                        <viewControllerLayoutGuide type="bottom" id="M50-Gj-1kf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Uo-Qm-idG">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="oW8-wq-6FG">
+                                <rect key="frame" x="0.0" y="113" width="1194" height="656"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WyL-wZ-7jR">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="yourcell" id="iHz-gA-8A8">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="J2C-fu-r8M"/>
+                    <connections>
+                        <outlet property="yourCollectionView" destination="oW8-wq-6FG" id="IRU-aJ-UwY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xvb-7j-RPS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786.4321608040201" y="2180.5755395683454"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="oMc-8C-Uea">
             <objects>
@@ -767,6 +813,7 @@
                     <connections>
                         <segue destination="a0G-w9-m9U" kind="relationship" relationship="viewControllers" id="QZB-d1-gd8"/>
                         <segue destination="Ka3-JH-zPW" kind="relationship" relationship="viewControllers" id="xfz-YJ-ze4"/>
+                        <segue destination="7dy-Pz-yJZ" kind="relationship" relationship="viewControllers" id="uCn-Pl-ofP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFg-ZW-eQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -793,12 +840,31 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vs3-SN-99C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="794.53125" y="1665.625"/>
+            <point key="canvasLocation" x="1502.0100502512562" y="1665.4676258992806"/>
+        </scene>
+        <!--Your Book Collection-->
+        <scene sceneID="Ony-wY-LV2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7dy-Pz-yJZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Your Book Collection" image="icons8-hearts" id="FgA-ux-6UG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ug4-hc-Jf9">
+                        <rect key="frame" x="0.0" y="24" width="1194" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fjg-5I-Td0" kind="relationship" relationship="rootViewController" id="BpN-5U-FaQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jyy-bK-a4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="78.894472361809051" y="2180.5755395683454"/>
         </scene>
     </scenes>
     <resources>
-        <image name="buccaneerboat1.jpg" width="1170" height="1500"/>
         <image name="icons8-collectibles" width="64" height="64"/>
+        <image name="icons8-hearts" width="64" height="64"/>
         <image name="icons8-volunteering" width="64" height="64"/>
     </resources>
 </document>
