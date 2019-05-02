@@ -2,8 +2,8 @@
 //  ProductInfoTableViewCell.swift
 //  Pirate Bay
 //
-//  Created by Andi Setiyadi on 1/7/17.
-//  Copyright © 2017 devhubs. All rights reserved.
+//  Created by Larry Nguyen on 1/7/17.
+//  Copyright © 2017 Larry. All rights reserved.
 //
 
 import UIKit

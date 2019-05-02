@@ -2,8 +2,8 @@
 //  UIImage+Extension.swift
 //  Pirate Bay
 //
-//  Created by Andi Setiyadi on 1/5/17.
-//  Copyright © 2017 devhubs. All rights reserved.
+//  Created by Larry Nguyen on 1/5/17.
+//  Copyright © 2017 Larry. All rights reserved.
 //
 
 import UIKit

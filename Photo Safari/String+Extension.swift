@@ -2,8 +2,8 @@
 //  String+Extension.swift
 //  Pirate Bay
 //
-//  Created by Andi Setiyadi on 12/31/16.
-//  Copyright © 2016 devhubs. All rights reserved.
+//  Created by Larry Nguyen on 12/31/16.
+//  Copyright © 2016 Larry. All rights reserved.
 //
 
 import UIKit

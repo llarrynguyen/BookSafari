@@ -3,7 +3,7 @@
 //  Photo Safari
 //
 //  Created by Larry Nguyen on 2/7/19.
-//  Copyright © 2019 devhubs. All rights reserved.
+//  Copyright © 2019 Larry. All rights reserved.
 //
 
 import UIKit
